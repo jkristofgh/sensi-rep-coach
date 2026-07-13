@@ -1,0 +1,102 @@
+{
+  "call_id": "R5_disc_001",
+  "rep_id": "R5",
+  "rep_name": "Marco Bellini",
+  "product": "Cally",
+  "call_type": "discovery",
+  "date": "2026-05-01",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 63,
+  "penalty": 0,
+  "deterministic": {
+    "talk_ratio": 0.76,
+    "rep_questions": 7,
+    "open_questions": 0,
+    "next_step_booked": true,
+    "monologue_max_words": 113
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 4.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "can you give me a quick sense of how many caregivers and clients you're managing right now?"
+      ],
+      "tip": "Continue leading every call with discovery before pivoting to product, as done here."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 2.5,
+      "weight": 0.22,
+      "signal": "hybrid",
+      "evidence": [
+        "how are you handling that today? Is it mostly caregiver notes, family calls, or something else?"
+      ],
+      "tip": "Ask about decision process and budget/timeline explicitly, not just pain points, to round out discovery."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 2,
+      "weight": 0.13,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 76% of the call"
+      ],
+      "tip": "Aim for more listening \u2014 open with questions and let the buyer talk."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 2.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "I guess I'd want to see how the actual family-facing messaging works before I roll it out to my whole client base."
+      ],
+      "tip": "Probe explicitly for budget, timeline to decide, and who else needs to sign off rather than only identifying the ops manager as a stakeholder."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 4.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "My concern though is the \"AI listening in\" piece. Some of our clients and families are already a little wary of technology"
+      ],
+      "tip": "After addressing the concern, confirm explicitly that it's resolved before moving to next steps."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 5.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "agencies reporting about 35% more billable hours"
+      ],
+      "tip": "Keep anchoring only to published stats like this 35% figure rather than introducing unverified numbers."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 3.5,
+      "weight": 0.15,
+      "signal": "hybrid",
+      "evidence": [
+        "I'll follow up next week to find a time that works for both of your schedules"
+      ],
+      "tip": "Lock a specific date/time on the call itself instead of a vague 'I'll follow up next week.'"
+    }
+  ],
+  "flags": [],
+  "recommendations": [],
+  "summary": "",
+  "account": "Silver Oak Caregivers"
+}

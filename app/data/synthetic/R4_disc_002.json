@@ -1,0 +1,113 @@
+{
+  "call_id": "R4_disc_002",
+  "rep_id": "R4",
+  "rep_name": "Dana Whitmore",
+  "product": "Olly",
+  "call_type": "discovery",
+  "date": "2026-04-08",
+  "quality_profile": "weak",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey there, thanks for hopping on \u2014 let me just go ahead and share my screen so you can see exactly what Olly does, because I think once you see this dashboard it's going to click immediately. So this is our AI voice monitoring platform, and basically what it does is it calls into the home during caregiver visits and listens for risk indicators \u2014 falls, medication issues, caregiver no-shows, emotional distress in the client's voice, all of that. You can see here on the dashboard we've got real-time alerts, sentiment scoring, and a compliance log that basically writes your documentation for you. I know I'm jumping right in, but I just get excited about this product because I've seen it transform agencies overnight, so let's just dive in."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, sure."
+    },
+    {
+      "speaker": "Rep",
+      "text": "So look at this sample alert \u2014 this is from a real deployment, obviously anonymized \u2014 where the system caught a caregiver skipping a scheduled visit and flagged it within four minutes. Without Olly, that kind of thing might not surface until the family calls in three days later furious, and by then you've got a liability problem on your hands. We actually ran a survey last year \u2014 I think it was across like 400 home care agencies \u2014 and something like 73% of them said caregiver no-shows were their number one unreported risk. That number should scare you a little, honestly, because it scared me when I first saw it."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, that's a lot."
+    },
+    {
+      "speaker": "Rep",
+      "text": "It really is. And here's the thing \u2014 when agencies bring Olly on, we typically see about a $42,000 annual savings per agency once you factor in reduced liability incidents, fewer emergency room visits from missed medication reminders, and lower turnover because caregivers actually perform better when they know there's oversight. I mean, I've done this math a hundred times across different client sizes, and $42,000 is actually on the conservative end \u2014 would you agree that's a pretty conservative number given everything I just walked you through?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I guess so."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right, exactly, and that's really the beauty of it \u2014 you're not just buying a monitoring tool, you're buying peace of mind and a hard dollar return. Now let me show you the caregiver scorecard feature real quick, because this is where agencies really start to see behavioral change. Every caregiver gets scored on punctuality, communication tone, and task completion, and you as the owner get a weekly digest. It basically does your QA department's job for you, which for an agency your size probably means you could even trim some overhead there down the line."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Makes sense."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right? And I haven't even gotten to the family communication piece yet \u2014 families get a portal where they can see visit summaries and sentiment trends for their loved one, which massively cuts down on those anxious phone calls to your office staff. I've had clients tell me their front desk call volume dropped by almost 30% within the first two months. That's real time back for your team, and honestly it's one of my favorite parts of the product because it's the piece families actually rave about."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, that's good to hear."
+    },
+    {
+      "speaker": "Rep",
+      "text": "It really is good \u2014 I'm glad you see it too. So, tell me a little about your agency, just so I can tailor the rest of this \u2014 how many caregivers are you running right now, roughly?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "About 60 or so."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Sixty, okay, that's a great size for this, honestly right in our sweet spot. At that scale you'd probably be looking at implementation within about two weeks, and pricing would land somewhere in the range we usually quote for that headcount, which I can get you exact numbers on today if you want. Most agencies your size see ROI within the first billing cycle, so it's really a no-brainer once the numbers are in front of you."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Alright."
+    },
+    {
+      "speaker": "Rep",
+      "text": "I do want to mention, we've got a promotion running right now where if you sign on before the end of the month, we waive the onboarding fee and throw in the first quarter of premium reporting for free. That's usually a couple thousand dollars of value just gone, so I'd hate for you to miss that window, especially since I don't know when we'll run this offer again."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, I hear you."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Good, good. So what's driving you to look at something like this right now, if you don't mind me asking? Like what's the pain point that made you take this call?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly, I'm actually in talks to sell the agency in the next few months, so I'm just seeing what's out there."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Oh interesting, okay \u2014 well, honestly this could still be a great selling point for a buyer, having this kind of tech in place could even bump up your valuation a bit, buyers love seeing operational systems already humming along. So it might actually work in your favor either way, which is kind of a nice bonus nobody really thinks about."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Maybe, yeah."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Exactly, so let's not let that stop us from moving forward, because worst case you're handing off a more efficient business, best case you're the one enjoying the savings for the next few months. Either way it's a win. So what I'd love to do is get you set up with a quick proposal today, and if you can get me a few details \u2014 headcount, current EHR system, that kind of thing \u2014 I can have pricing back to you by tomorrow."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, I can try."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect, I'll shoot you an email with everything we covered plus that ROI breakdown so you have it in writing. And again, just keep that end-of-month deadline in mind for the onboarding waiver, because I really don't want you to miss out on that if this ends up being the right fit. Sound good?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good, thanks."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Awesome, appreciate the time today \u2014 I'll follow up soon and we'll figure out next steps from there."
+    }
+  ],
+  "account": "Harbor Light Home Care"
+}

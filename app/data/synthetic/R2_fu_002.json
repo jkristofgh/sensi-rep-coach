@@ -1,0 +1,77 @@
+{
+  "call_id": "R2_fu_002",
+  "rep_id": "R2",
+  "rep_name": "Priya Shah",
+  "product": "Olly",
+  "call_type": "follow_up",
+  "date": "2026-05-01",
+  "quality_profile": "mixed",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey, thanks for hopping back on with me, I know things are hectic this time of year with staffing. Last time we talked, you mentioned your biggest headache was caregivers not documenting visits consistently and families calling in confused about what actually happened during a shift. I wanted to pick up there and show you where Olly fits into that specific problem, if that's still top of mind for you."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, it's still an issue. We've got about 40 caregivers in the field and half of them are great about notes, half of them just write \"client fine\" and move on. Families get frustrated, and honestly our care coordinators spend a ton of time chasing that down instead of doing intake calls or follow-ups with new leads."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's exactly the pattern we hear a lot, and it's a real revenue lever, not just an annoyance. When your coordinators are stuck chasing documentation, they're not on the phone converting new inquiries, and that's where a lot of agencies leave money on the table. Olly does automated check-in calls with the client after each visit, asks a structured set of wellness questions, flags anything concerning, and generates the documentation for you automatically so your coordinators aren't the bottleneck. Agencies using it have seen about 35% more billable hours just because staff get freed up to focus on scheduling and sales instead of chasing paperwork."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, that part's interesting. But I've got to ask \u2014 are families going to feel like they're talking to a robot? Some of our clients are older, hard of hearing, not tech-savvy at all. That's my worry."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally fair concern, and it's the one we get most often. The calls are voice-based, not an app or a text message, so there's nothing for the client to download or figure out. It's a phone call, conversational, and Olly is built specifically to work with older adults \u2014 pacing, tone, repeating things if needed. Most agencies actually find families like it because it's proactive outreach they weren't getting before, versus a coordinator who only calls when there's already a problem. It's not replacing your caregivers or your team, it's just catching the stuff that normally falls through the cracks between visits."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That makes sense. And you mentioned before something about the sales side too, not just operations?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah, good memory. So separately from the check-in piece, we also see it help on the intake and conversion side. When agencies respond faster and more consistently to new leads because their staff isn't buried in admin work, we've seen conversion on inquiries roughly 2.6x higher compared to agencies that are slower or inconsistent in follow-up. So it's really a two-sided thing for you \u2014 better documentation and family trust on the care side, and more capacity for your coordinators to actually work new business on the growth side."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I hear you, but I want to be honest, we tried a different monitoring tool two years ago and it just became noise. More alerts, more dashboards, nobody had time to look at it. I don't want to add something that creates more work."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a really valid pushback, and I'd be lying if I said every tool in this space doesn't have that risk. The difference with Olly is it's not another dashboard you have to babysit \u2014 it's designed to only flag things that actually need a human, so your coordinators aren't sifting through noise, they're getting a short list of real issues. And the documentation piece happens automatically in the background regardless, so even if nobody logs in for a day, you're still covered on the compliance side. I'd rather show you that than just tell you, honestly."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, showing me would help. What would that actually look like?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "I'd love to set up something where we do a short pilot with maybe five or ten of your caregivers, so you can see real check-in calls and real documentation output rather than a canned demo. That way you're seeing it against your actual clients and your actual caregivers' notes, side by side. It's low commitment, and it gives your coordinators something concrete to react to instead of hypotheticals."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's fair, I'd want my ops manager in on that conversation too, she's the one who'd actually be living in this day to day."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Makes sense, and honestly she should be, since she's going to feel the impact of this more than anyone. Let's figure out a time where the three of us can get on a call, maybe next week sometime, and I can walk through what the pilot setup would look like and answer whatever questions she's got. I'll follow up with you early next week to find a time that works for both of you."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good, just send me something and I'll loop her in on scheduling."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Will do. I'll shoot you an email in the next day or two with a couple time options, and I'll include a one-pager on the billable hours and conversion numbers we talked about so you've got something to share with her ahead of time. Appreciate you making the time again today, I know your schedule's packed."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "No problem, talk soon."
+    }
+  ],
+  "account": "Evergreen Home Care"
+}

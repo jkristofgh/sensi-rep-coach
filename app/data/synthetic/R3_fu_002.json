@@ -1,0 +1,77 @@
+{
+  "call_id": "R3_fu_002",
+  "rep_id": "R3",
+  "rep_name": "Sam Okafor",
+  "product": "Cally",
+  "call_type": "follow_up",
+  "date": "2026-04-24",
+  "quality_profile": "developing",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey Linda, thanks for hopping on again \u2014 following up from our call last month about Cally. Did you get a chance to think it over on your end?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, sorry, it's been a crazy few weeks. We had two caregivers no-show last Tuesday and I ended up on the phone with three different families trying to smooth things over myself."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Oh, that's exactly the kind of thing Cally helps with. Just to remind you, Cally is our AI voice agent that handles those check-in calls automatically \u2014 wellness calls, schedule confirmations, that kind of thing \u2014 so your office staff isn't stuck making forty calls a day. One of our agency customers with around 200 caregivers told us Cally cut their missed check-in follow-ups dramatically because it's calling every single client on schedule, every day, without fail."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That does sound helpful. How does it actually work though \u2014 is it a robot voice, or does it sound more natural?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Great question \u2014 it sounds very natural, conversational, not robotic at all. Clients generally can't tell it's AI unless you tell them. And the reason that matters is retention \u2014 families feel like someone's always checking in, which builds trust in your agency. That's really the core value prop here: consistency at scale without burning out your office staff."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Makes sense. We're a smaller shop though, only about 35 caregivers, so I don't know if we're the same scale as that 200-caregiver example."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally fair, and honestly the model scales down just as well \u2014 smaller agencies actually see relief faster because your coordinators are wearing so many hats already. Cally would take those daily check-in calls off your plate completely, so your team can focus on actual care coordination instead of dialing down a client list every morning."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, our office coordinator Denise is definitely stretched thin. She's the one who usually catches these no-show situations, and honestly last week she almost missed one because she was buried in scheduling."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right, and that's the exact gap Cally closes \u2014 it's proactively calling clients and caregivers so nothing slips through when your team's overloaded. It really becomes like an extra set of hands that never gets tired or distracted."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay. What would it take to actually get this set up if we wanted to move forward?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "It's pretty straightforward \u2014 we'd do a short onboarding call with your team, map out your call scripts and cadence, and then Cally starts making calls within a couple weeks. I don't want to get ahead of things though \u2014 why don't I just send over some more info and pricing details so you and Denise can look it over?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, that works. Send it whenever."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect, I'll get that over to you probably by end of week. Anything specific you want me to include, or just the standard overview?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Just the standard stuff is fine for now, I'll pass it along to Denise too."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Sounds good. I'll shoot that over and we can regroup whenever you've had a chance to digest it. Thanks again for the time today, Linda."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "No problem, talk soon."
+    }
+  ],
+  "account": "Bright Path Home Health"
+}

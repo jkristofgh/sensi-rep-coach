@@ -1,0 +1,102 @@
+{
+  "call_id": "R3_demo_001",
+  "rep_id": "R3",
+  "rep_name": "Sam Okafor",
+  "product": "Cally",
+  "call_type": "demo_close",
+  "date": "2026-05-08",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 47,
+  "penalty": 0,
+  "deterministic": {
+    "talk_ratio": 0.751,
+    "rep_questions": 3,
+    "open_questions": 0,
+    "next_step_booked": false,
+    "monologue_max_words": 86
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 3.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "can I ask how many caregivers you've got out in the field right now?"
+      ],
+      "tip": "Complete fuller discovery on goals, timeline, and decision process before pivoting into the product pitch."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 1.5,
+      "weight": 0.1,
+      "signal": "hybrid",
+      "evidence": [
+        "what's driving you to look at something like this right now?"
+      ],
+      "tip": "Ask discovery questions upfront and probe deeper on decision criteria, timeline, and budget before launching into the product explanation."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 3,
+      "weight": 0.1,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 75% of the call"
+      ],
+      "tip": "Aim for more listening \u2014 open with questions and let the buyer talk."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 2.0,
+      "weight": 0.12,
+      "signal": "llm",
+      "evidence": [
+        "we've had some caregiver turnover so oversight has been thinner than usual."
+      ],
+      "tip": "Explicitly qualify the turnover and family-complaint signals by asking about urgency, budget, and who else is involved in the decision."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 3.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "Maybe something on how it handles families who don't speak English as a first language"
+      ],
+      "tip": "Address the language-support question directly on the call rather than deferring entirely to a follow-up packet."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 2.0,
+      "weight": 0.2,
+      "signal": "llm",
+      "evidence": [
+        "we've had agencies catch a UTI starting to develop just from the voice sentiment analysis before it turned into a hospital visit"
+      ],
+      "tip": "Cite the published 23% readmission drop figure instead of an unverified anecdote to keep claims consistent with Sensi's proof points."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 2.0,
+      "weight": 0.18,
+      "signal": "hybrid",
+      "evidence": [
+        "I'll send that over in the next day or two."
+      ],
+      "tip": "Lock in a specific dated call or meeting to review the proposal rather than a vague 'I'll send it over.'"
+    }
+  ],
+  "flags": [],
+  "recommendations": [],
+  "summary": "",
+  "account": "Willow Creek Senior Care"
+}

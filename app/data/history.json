@@ -1,0 +1,1280 @@
+[
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-03-30",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 90,
+    "dimensions": {
+      "motion_adherence": 4.6,
+      "discovery_quality": 4.4,
+      "talk_listen_balance": 4.5,
+      "buying_signal": 4.6,
+      "objection_handling": 4.4,
+      "proof_fidelity": 4.4,
+      "next_step": 4.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-03-30",
+    "call_type": "follow_up",
+    "product": "Olly",
+    "overall": 17,
+    "dimensions": {
+      "motion_adherence": 0.9,
+      "discovery_quality": 0.6,
+      "talk_listen_balance": 0.4,
+      "buying_signal": 1.1,
+      "objection_handling": 1.8,
+      "proof_fidelity": 1.0,
+      "next_step": 0.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-03-31",
+    "call_type": "demo_close",
+    "product": "Sally",
+    "overall": 36,
+    "dimensions": {
+      "motion_adherence": 1.8,
+      "discovery_quality": 1.3,
+      "talk_listen_balance": 2.3,
+      "buying_signal": 1.5,
+      "objection_handling": 2.9,
+      "proof_fidelity": 1.8,
+      "next_step": 1.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-03-31",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 37,
+    "dimensions": {
+      "motion_adherence": 2.1,
+      "discovery_quality": 1.6,
+      "talk_listen_balance": 2.6,
+      "buying_signal": 1.6,
+      "objection_handling": 1.8,
+      "proof_fidelity": 1.9,
+      "next_step": 1.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-03-31",
+    "call_type": "follow_up",
+    "product": "Olly",
+    "overall": 15,
+    "dimensions": {
+      "motion_adherence": 1.1,
+      "discovery_quality": 0.6,
+      "talk_listen_balance": 0.4,
+      "buying_signal": 0.5,
+      "objection_handling": 1.6,
+      "proof_fidelity": 0.6,
+      "next_step": 0.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-04-01",
+    "call_type": "demo_close",
+    "product": "Sally",
+    "overall": 92,
+    "dimensions": {
+      "motion_adherence": 4.6,
+      "discovery_quality": 4.4,
+      "talk_listen_balance": 4.3,
+      "buying_signal": 4.6,
+      "objection_handling": 4.5,
+      "proof_fidelity": 4.9,
+      "next_step": 4.6
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-01",
+    "call_type": "demo_close",
+    "product": "Olly",
+    "overall": 38,
+    "dimensions": {
+      "motion_adherence": 2.3,
+      "discovery_quality": 1.5,
+      "talk_listen_balance": 2.5,
+      "buying_signal": 1.5,
+      "objection_handling": 2.4,
+      "proof_fidelity": 1.7,
+      "next_step": 1.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-02",
+    "call_type": "demo_close",
+    "product": "Sally",
+    "overall": 64,
+    "dimensions": {
+      "motion_adherence": 3.2,
+      "discovery_quality": 3.1,
+      "talk_listen_balance": 3.2,
+      "buying_signal": 2.6,
+      "objection_handling": 3.9,
+      "proof_fidelity": 3.1,
+      "next_step": 3.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-04-02",
+    "call_type": "discovery",
+    "product": "Cally",
+    "overall": 34,
+    "dimensions": {
+      "motion_adherence": 1.6,
+      "discovery_quality": 1.3,
+      "talk_listen_balance": 2.3,
+      "buying_signal": 1.9,
+      "objection_handling": 2.0,
+      "proof_fidelity": 2.0,
+      "next_step": 1.3
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-04-03",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 91,
+    "dimensions": {
+      "motion_adherence": 4.6,
+      "discovery_quality": 4.5,
+      "talk_listen_balance": 4.4,
+      "buying_signal": 4.6,
+      "objection_handling": 4.6,
+      "proof_fidelity": 4.5,
+      "next_step": 4.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-03",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 60,
+    "dimensions": {
+      "motion_adherence": 3.4,
+      "discovery_quality": 3.1,
+      "talk_listen_balance": 3.0,
+      "buying_signal": 2.3,
+      "objection_handling": 3.2,
+      "proof_fidelity": 2.9,
+      "next_step": 3.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-03",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 34,
+    "dimensions": {
+      "motion_adherence": 1.7,
+      "discovery_quality": 1.7,
+      "talk_listen_balance": 2.2,
+      "buying_signal": 1.0,
+      "objection_handling": 2.2,
+      "proof_fidelity": 1.8,
+      "next_step": 1.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-06",
+    "call_type": "demo_close",
+    "product": "Cally",
+    "overall": 38,
+    "dimensions": {
+      "motion_adherence": 2.3,
+      "discovery_quality": 1.3,
+      "talk_listen_balance": 2.3,
+      "buying_signal": 1.9,
+      "objection_handling": 2.0,
+      "proof_fidelity": 2.1,
+      "next_step": 1.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-06",
+    "call_type": "demo_close",
+    "product": "Sally",
+    "overall": 42,
+    "dimensions": {
+      "motion_adherence": 2.2,
+      "discovery_quality": 2.3,
+      "talk_listen_balance": 1.8,
+      "buying_signal": 2.0,
+      "objection_handling": 2.2,
+      "proof_fidelity": 1.9,
+      "next_step": 2.3
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-07",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 62,
+    "dimensions": {
+      "motion_adherence": 3.1,
+      "discovery_quality": 2.9,
+      "talk_listen_balance": 3.4,
+      "buying_signal": 2.5,
+      "objection_handling": 4.0,
+      "proof_fidelity": 3.2,
+      "next_step": 2.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-04-07",
+    "call_type": "demo_close",
+    "product": "Cally",
+    "overall": 44,
+    "dimensions": {
+      "motion_adherence": 2.3,
+      "discovery_quality": 1.7,
+      "talk_listen_balance": 2.2,
+      "buying_signal": 2.1,
+      "objection_handling": 2.4,
+      "proof_fidelity": 2.4,
+      "next_step": 2.0
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-07",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 39,
+    "dimensions": {
+      "motion_adherence": 2.3,
+      "discovery_quality": 1.7,
+      "talk_listen_balance": 1.8,
+      "buying_signal": 2.0,
+      "objection_handling": 2.3,
+      "proof_fidelity": 1.8,
+      "next_step": 1.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-04-08",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 38,
+    "dimensions": {
+      "motion_adherence": 2.1,
+      "discovery_quality": 2.2,
+      "talk_listen_balance": 2.2,
+      "buying_signal": 1.8,
+      "objection_handling": 2.0,
+      "proof_fidelity": 2.1,
+      "next_step": 1.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-04-10",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 88,
+    "dimensions": {
+      "motion_adherence": 4.7,
+      "discovery_quality": 4.4,
+      "talk_listen_balance": 4.2,
+      "buying_signal": 4.3,
+      "objection_handling": 4.6,
+      "proof_fidelity": 4.9,
+      "next_step": 4.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-04-10",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 39,
+    "dimensions": {
+      "motion_adherence": 2.1,
+      "discovery_quality": 1.1,
+      "talk_listen_balance": 2.7,
+      "buying_signal": 1.7,
+      "objection_handling": 2.7,
+      "proof_fidelity": 2.5,
+      "next_step": 1.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-04-10",
+    "call_type": "discovery",
+    "product": "Olly",
+    "overall": 19,
+    "dimensions": {
+      "motion_adherence": 1.2,
+      "discovery_quality": 0.7,
+      "talk_listen_balance": 0.5,
+      "buying_signal": 0.7,
+      "objection_handling": 1.4,
+      "proof_fidelity": 1.3,
+      "next_step": 1.1
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-04-14",
+    "call_type": "demo_close",
+    "product": "Olly",
+    "overall": 18,
+    "dimensions": {
+      "motion_adherence": 1.5,
+      "discovery_quality": 0.2,
+      "talk_listen_balance": 0.7,
+      "buying_signal": 0.8,
+      "objection_handling": 1.5,
+      "proof_fidelity": 0.9,
+      "next_step": 0.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-04-15",
+    "call_type": "discovery",
+    "product": "Platform",
+    "overall": 90,
+    "dimensions": {
+      "motion_adherence": 4.6,
+      "discovery_quality": 4.4,
+      "talk_listen_balance": 4.4,
+      "buying_signal": 4.4,
+      "objection_handling": 4.4,
+      "proof_fidelity": 4.2,
+      "next_step": 4.9
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-04-15",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 18,
+    "dimensions": {
+      "motion_adherence": 0.8,
+      "discovery_quality": 0.0,
+      "talk_listen_balance": 0.3,
+      "buying_signal": 0.9,
+      "objection_handling": 2.0,
+      "proof_fidelity": 0.9,
+      "next_step": 1.0
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-04-16",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 40,
+    "dimensions": {
+      "motion_adherence": 2.0,
+      "discovery_quality": 1.5,
+      "talk_listen_balance": 2.6,
+      "buying_signal": 2.1,
+      "objection_handling": 2.7,
+      "proof_fidelity": 2.2,
+      "next_step": 1.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-17",
+    "call_type": "demo_close",
+    "product": "Cally",
+    "overall": 61,
+    "dimensions": {
+      "motion_adherence": 3.1,
+      "discovery_quality": 2.6,
+      "talk_listen_balance": 3.5,
+      "buying_signal": 2.6,
+      "objection_handling": 3.2,
+      "proof_fidelity": 3.1,
+      "next_step": 3.0
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-17",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 61,
+    "dimensions": {
+      "motion_adherence": 3.3,
+      "discovery_quality": 3.0,
+      "talk_listen_balance": 3.5,
+      "buying_signal": 2.4,
+      "objection_handling": 3.5,
+      "proof_fidelity": 3.0,
+      "next_step": 3.0
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-04-17",
+    "call_type": "demo_close",
+    "product": "Platform",
+    "overall": 18,
+    "dimensions": {
+      "motion_adherence": 0.9,
+      "discovery_quality": 0.7,
+      "talk_listen_balance": 0.2,
+      "buying_signal": 1.1,
+      "objection_handling": 2.0,
+      "proof_fidelity": 0.8,
+      "next_step": 0.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-17",
+    "call_type": "follow_up",
+    "product": "Olly",
+    "overall": 45,
+    "dimensions": {
+      "motion_adherence": 2.4,
+      "discovery_quality": 2.3,
+      "talk_listen_balance": 2.6,
+      "buying_signal": 2.0,
+      "objection_handling": 2.6,
+      "proof_fidelity": 2.3,
+      "next_step": 1.9
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-04-20",
+    "call_type": "follow_up",
+    "product": "Platform",
+    "overall": 91,
+    "dimensions": {
+      "motion_adherence": 4.6,
+      "discovery_quality": 4.6,
+      "talk_listen_balance": 4.6,
+      "buying_signal": 4.5,
+      "objection_handling": 4.6,
+      "proof_fidelity": 4.9,
+      "next_step": 4.3
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-20",
+    "call_type": "demo_close",
+    "product": "Cally",
+    "overall": 67,
+    "dimensions": {
+      "motion_adherence": 3.4,
+      "discovery_quality": 3.1,
+      "talk_listen_balance": 3.9,
+      "buying_signal": 3.5,
+      "objection_handling": 3.5,
+      "proof_fidelity": 3.3,
+      "next_step": 2.9
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-21",
+    "call_type": "demo_close",
+    "product": "Olly",
+    "overall": 61,
+    "dimensions": {
+      "motion_adherence": 3.3,
+      "discovery_quality": 2.9,
+      "talk_listen_balance": 3.4,
+      "buying_signal": 3.1,
+      "objection_handling": 3.5,
+      "proof_fidelity": 2.6,
+      "next_step": 2.7
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-04-21",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 47,
+    "dimensions": {
+      "motion_adherence": 2.8,
+      "discovery_quality": 2.0,
+      "talk_listen_balance": 2.7,
+      "buying_signal": 2.1,
+      "objection_handling": 2.5,
+      "proof_fidelity": 3.0,
+      "next_step": 1.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-04-21",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 17,
+    "dimensions": {
+      "motion_adherence": 1.4,
+      "discovery_quality": 0.8,
+      "talk_listen_balance": 0.5,
+      "buying_signal": 0.7,
+      "objection_handling": 1.7,
+      "proof_fidelity": 0.6,
+      "next_step": 0.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-22",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 63,
+    "dimensions": {
+      "motion_adherence": 2.9,
+      "discovery_quality": 3.3,
+      "talk_listen_balance": 3.2,
+      "buying_signal": 3.2,
+      "objection_handling": 3.1,
+      "proof_fidelity": 3.2,
+      "next_step": 3.1
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-22",
+    "call_type": "follow_up",
+    "product": "Olly",
+    "overall": 49,
+    "dimensions": {
+      "motion_adherence": 2.7,
+      "discovery_quality": 2.3,
+      "talk_listen_balance": 2.9,
+      "buying_signal": 2.2,
+      "objection_handling": 2.1,
+      "proof_fidelity": 2.1,
+      "next_step": 2.7
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-23",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 51,
+    "dimensions": {
+      "motion_adherence": 2.8,
+      "discovery_quality": 1.5,
+      "talk_listen_balance": 3.0,
+      "buying_signal": 2.7,
+      "objection_handling": 3.1,
+      "proof_fidelity": 2.4,
+      "next_step": 2.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-04-24",
+    "call_type": "discovery",
+    "product": "Platform",
+    "overall": 16,
+    "dimensions": {
+      "motion_adherence": 1.4,
+      "discovery_quality": 0.4,
+      "talk_listen_balance": 0.2,
+      "buying_signal": 0.8,
+      "objection_handling": 1.7,
+      "proof_fidelity": 0.9,
+      "next_step": 0.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-04-27",
+    "call_type": "follow_up",
+    "product": "Olly",
+    "overall": 88,
+    "dimensions": {
+      "motion_adherence": 4.4,
+      "discovery_quality": 4.1,
+      "talk_listen_balance": 4.4,
+      "buying_signal": 4.4,
+      "objection_handling": 4.0,
+      "proof_fidelity": 4.8,
+      "next_step": 4.7
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-27",
+    "call_type": "demo_close",
+    "product": "Cally",
+    "overall": 61,
+    "dimensions": {
+      "motion_adherence": 3.3,
+      "discovery_quality": 2.8,
+      "talk_listen_balance": 3.5,
+      "buying_signal": 2.4,
+      "objection_handling": 3.5,
+      "proof_fidelity": 3.1,
+      "next_step": 2.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-04-27",
+    "call_type": "discovery",
+    "product": "Cally",
+    "overall": 51,
+    "dimensions": {
+      "motion_adherence": 3.0,
+      "discovery_quality": 1.8,
+      "talk_listen_balance": 3.1,
+      "buying_signal": 2.5,
+      "objection_handling": 3.3,
+      "proof_fidelity": 2.5,
+      "next_step": 2.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-29",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 63,
+    "dimensions": {
+      "motion_adherence": 3.5,
+      "discovery_quality": 2.8,
+      "talk_listen_balance": 3.3,
+      "buying_signal": 3.3,
+      "objection_handling": 3.6,
+      "proof_fidelity": 3.1,
+      "next_step": 2.7
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-29",
+    "call_type": "demo_close",
+    "product": "Cally",
+    "overall": 51,
+    "dimensions": {
+      "motion_adherence": 2.9,
+      "discovery_quality": 2.2,
+      "talk_listen_balance": 2.9,
+      "buying_signal": 2.8,
+      "objection_handling": 2.7,
+      "proof_fidelity": 2.3,
+      "next_step": 2.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-04-30",
+    "call_type": "demo_close",
+    "product": "Sally",
+    "overall": 64,
+    "dimensions": {
+      "motion_adherence": 3.0,
+      "discovery_quality": 2.9,
+      "talk_listen_balance": 3.6,
+      "buying_signal": 2.8,
+      "objection_handling": 3.5,
+      "proof_fidelity": 3.3,
+      "next_step": 3.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-04-30",
+    "call_type": "demo_close",
+    "product": "Cally",
+    "overall": 55,
+    "dimensions": {
+      "motion_adherence": 2.9,
+      "discovery_quality": 2.4,
+      "talk_listen_balance": 2.8,
+      "buying_signal": 2.3,
+      "objection_handling": 3.4,
+      "proof_fidelity": 2.8,
+      "next_step": 2.6
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-05-01",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 57,
+    "dimensions": {
+      "motion_adherence": 3.3,
+      "discovery_quality": 2.5,
+      "talk_listen_balance": 2.9,
+      "buying_signal": 2.6,
+      "objection_handling": 3.0,
+      "proof_fidelity": 2.6,
+      "next_step": 3.0
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-05-01",
+    "call_type": "demo_close",
+    "product": "Platform",
+    "overall": 20,
+    "dimensions": {
+      "motion_adherence": 1.3,
+      "discovery_quality": 1.1,
+      "talk_listen_balance": 0.3,
+      "buying_signal": 0.8,
+      "objection_handling": 1.6,
+      "proof_fidelity": 1.4,
+      "next_step": 0.3
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-05-01",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 52,
+    "dimensions": {
+      "motion_adherence": 3.1,
+      "discovery_quality": 3.0,
+      "talk_listen_balance": 2.8,
+      "buying_signal": 2.2,
+      "objection_handling": 2.7,
+      "proof_fidelity": 2.2,
+      "next_step": 2.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-05-04",
+    "call_type": "discovery",
+    "product": "Olly",
+    "overall": 91,
+    "dimensions": {
+      "motion_adherence": 4.6,
+      "discovery_quality": 4.7,
+      "talk_listen_balance": 4.3,
+      "buying_signal": 4.7,
+      "objection_handling": 4.7,
+      "proof_fidelity": 4.7,
+      "next_step": 4.3
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-05-04",
+    "call_type": "discovery",
+    "product": "Cally",
+    "overall": 62,
+    "dimensions": {
+      "motion_adherence": 3.5,
+      "discovery_quality": 3.6,
+      "talk_listen_balance": 3.0,
+      "buying_signal": 2.4,
+      "objection_handling": 3.3,
+      "proof_fidelity": 2.8,
+      "next_step": 2.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-05-04",
+    "call_type": "demo_close",
+    "product": "Olly",
+    "overall": 64,
+    "dimensions": {
+      "motion_adherence": 2.9,
+      "discovery_quality": 2.6,
+      "talk_listen_balance": 3.5,
+      "buying_signal": 3.6,
+      "objection_handling": 3.6,
+      "proof_fidelity": 3.1,
+      "next_step": 3.1
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-05-06",
+    "call_type": "discovery",
+    "product": "Sally",
+    "overall": 55,
+    "dimensions": {
+      "motion_adherence": 3.1,
+      "discovery_quality": 2.0,
+      "talk_listen_balance": 3.1,
+      "buying_signal": 2.8,
+      "objection_handling": 3.6,
+      "proof_fidelity": 3.3,
+      "next_step": 2.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-05-06",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 19,
+    "dimensions": {
+      "motion_adherence": 1.0,
+      "discovery_quality": 0.9,
+      "talk_listen_balance": 0.3,
+      "buying_signal": 0.8,
+      "objection_handling": 1.5,
+      "proof_fidelity": 0.8,
+      "next_step": 1.0
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-05-07",
+    "call_type": "follow_up",
+    "product": "Olly",
+    "overall": 89,
+    "dimensions": {
+      "motion_adherence": 4.4,
+      "discovery_quality": 4.4,
+      "talk_listen_balance": 4.4,
+      "buying_signal": 4.6,
+      "objection_handling": 4.4,
+      "proof_fidelity": 4.6,
+      "next_step": 4.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-05-07",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 65,
+    "dimensions": {
+      "motion_adherence": 3.4,
+      "discovery_quality": 3.2,
+      "talk_listen_balance": 3.6,
+      "buying_signal": 3.1,
+      "objection_handling": 3.5,
+      "proof_fidelity": 3.3,
+      "next_step": 3.0
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-05-07",
+    "call_type": "discovery",
+    "product": "Olly",
+    "overall": 56,
+    "dimensions": {
+      "motion_adherence": 2.7,
+      "discovery_quality": 2.7,
+      "talk_listen_balance": 3.0,
+      "buying_signal": 2.6,
+      "objection_handling": 3.3,
+      "proof_fidelity": 2.7,
+      "next_step": 2.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-05-08",
+    "call_type": "follow_up",
+    "product": "Platform",
+    "overall": 89,
+    "dimensions": {
+      "motion_adherence": 4.8,
+      "discovery_quality": 4.1,
+      "talk_listen_balance": 4.5,
+      "buying_signal": 4.4,
+      "objection_handling": 4.6,
+      "proof_fidelity": 4.9,
+      "next_step": 4.3
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-05-08",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 60,
+    "dimensions": {
+      "motion_adherence": 2.9,
+      "discovery_quality": 2.9,
+      "talk_listen_balance": 3.6,
+      "buying_signal": 3.0,
+      "objection_handling": 3.1,
+      "proof_fidelity": 2.8,
+      "next_step": 2.9
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-05-08",
+    "call_type": "demo_close",
+    "product": "Cally",
+    "overall": 58,
+    "dimensions": {
+      "motion_adherence": 3.0,
+      "discovery_quality": 2.8,
+      "talk_listen_balance": 3.4,
+      "buying_signal": 2.6,
+      "objection_handling": 3.3,
+      "proof_fidelity": 3.0,
+      "next_step": 2.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-05-11",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 59,
+    "dimensions": {
+      "motion_adherence": 3.4,
+      "discovery_quality": 2.1,
+      "talk_listen_balance": 3.5,
+      "buying_signal": 2.5,
+      "objection_handling": 3.7,
+      "proof_fidelity": 3.1,
+      "next_step": 2.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-05-11",
+    "call_type": "discovery",
+    "product": "Olly",
+    "overall": 63,
+    "dimensions": {
+      "motion_adherence": 3.6,
+      "discovery_quality": 2.5,
+      "talk_listen_balance": 3.8,
+      "buying_signal": 2.9,
+      "objection_handling": 3.8,
+      "proof_fidelity": 2.8,
+      "next_step": 3.2
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-05-12",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 61,
+    "dimensions": {
+      "motion_adherence": 3.4,
+      "discovery_quality": 3.0,
+      "talk_listen_balance": 3.2,
+      "buying_signal": 2.6,
+      "objection_handling": 3.5,
+      "proof_fidelity": 2.9,
+      "next_step": 3.0
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-05-13",
+    "call_type": "discovery",
+    "product": "Platform",
+    "overall": 89,
+    "dimensions": {
+      "motion_adherence": 4.4,
+      "discovery_quality": 4.4,
+      "talk_listen_balance": 4.3,
+      "buying_signal": 4.7,
+      "objection_handling": 4.3,
+      "proof_fidelity": 4.8,
+      "next_step": 4.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-05-14",
+    "call_type": "demo_close",
+    "product": "Platform",
+    "overall": 90,
+    "dimensions": {
+      "motion_adherence": 4.6,
+      "discovery_quality": 4.2,
+      "talk_listen_balance": 4.5,
+      "buying_signal": 4.5,
+      "objection_handling": 4.7,
+      "proof_fidelity": 4.6,
+      "next_step": 4.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R2",
+    "rep_name": "Priya Shah",
+    "date": "2026-05-14",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 62,
+    "dimensions": {
+      "motion_adherence": 3.0,
+      "discovery_quality": 2.8,
+      "talk_listen_balance": 3.4,
+      "buying_signal": 2.9,
+      "objection_handling": 3.5,
+      "proof_fidelity": 3.5,
+      "next_step": 2.9
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-05-14",
+    "call_type": "discovery",
+    "product": "Platform",
+    "overall": 14,
+    "dimensions": {
+      "motion_adherence": 0.6,
+      "discovery_quality": 0.4,
+      "talk_listen_balance": 0.8,
+      "buying_signal": 1.2,
+      "objection_handling": 1.1,
+      "proof_fidelity": 0.9,
+      "next_step": 0.4
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-05-14",
+    "call_type": "follow_up",
+    "product": "Olly",
+    "overall": 64,
+    "dimensions": {
+      "motion_adherence": 3.8,
+      "discovery_quality": 3.2,
+      "talk_listen_balance": 3.3,
+      "buying_signal": 2.9,
+      "objection_handling": 3.6,
+      "proof_fidelity": 3.2,
+      "next_step": 2.9
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R1",
+    "rep_name": "Alex Rivera",
+    "date": "2026-05-15",
+    "call_type": "follow_up",
+    "product": "Olly",
+    "overall": 91,
+    "dimensions": {
+      "motion_adherence": 4.7,
+      "discovery_quality": 4.7,
+      "talk_listen_balance": 4.2,
+      "buying_signal": 4.4,
+      "objection_handling": 4.4,
+      "proof_fidelity": 4.6,
+      "next_step": 4.7
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R3",
+    "rep_name": "Sam Okafor",
+    "date": "2026-05-15",
+    "call_type": "follow_up",
+    "product": "Sally",
+    "overall": 59,
+    "dimensions": {
+      "motion_adherence": 2.9,
+      "discovery_quality": 2.9,
+      "talk_listen_balance": 3.7,
+      "buying_signal": 2.5,
+      "objection_handling": 3.4,
+      "proof_fidelity": 3.5,
+      "next_step": 2.5
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R4",
+    "rep_name": "Dana Whitmore",
+    "date": "2026-05-15",
+    "call_type": "demo_close",
+    "product": "Platform",
+    "overall": 19,
+    "dimensions": {
+      "motion_adherence": 0.9,
+      "discovery_quality": 0.7,
+      "talk_listen_balance": 0.4,
+      "buying_signal": 0.9,
+      "objection_handling": 1.5,
+      "proof_fidelity": 1.2,
+      "next_step": 0.8
+    },
+    "kind": "seeded_history"
+  },
+  {
+    "rep_id": "R5",
+    "rep_name": "Marco Bellini",
+    "date": "2026-05-15",
+    "call_type": "follow_up",
+    "product": "Cally",
+    "overall": 64,
+    "dimensions": {
+      "motion_adherence": 3.7,
+      "discovery_quality": 3.3,
+      "talk_listen_balance": 3.5,
+      "buying_signal": 3.0,
+      "objection_handling": 3.4,
+      "proof_fidelity": 3.5,
+      "next_step": 2.7
+    },
+    "kind": "seeded_history"
+  }
+]

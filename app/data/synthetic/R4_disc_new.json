@@ -1,0 +1,102 @@
+{
+  "call_id": "R4_disc_new",
+  "rep_id": "R4",
+  "rep_name": "Dana Whitmore",
+  "product": "Cally",
+  "account": "Everly Home Assist",
+  "call_type": "discovery",
+  "date": "2026-05-15",
+  "quality_profile": "weak",
+  "kind": "synthetic",
+  "scored": false,
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey there, thanks for hopping on \u2014 before we even get into questions, let me just share my screen real quick and walk you through the Cally platform, because honestly it sells itself once you see it. So this is our dashboard, and what you're looking at here is real-time AI monitoring of every single caregiver visit, all your clients, all your agencies bundled into one view. I want you to see this first so the rest of our conversation actually makes sense."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, sure."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Great, so as you can see on the left panel, we've got compliance scoring, we've got fall-risk detection, we've got medication reminders all being tracked passively through the call audio \u2014 no extra hardware, no extra work for your caregivers, it just runs in the background during the normal check-in calls. And what's really cool is the alerts system down here, it pings your office staff the second something sounds off, like if a client sounds confused or if there's a change in their voice pattern that could indicate a UTI or dehydration, which by the way is one of the top three reasons for hospital readmission in home care, so this is huge for reducing rehospitalization costs. I mean, would you agree that catching something like that two or three days earlier could save you a massive headache down the line?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I guess, yeah."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right, exactly, and that's really the core value prop here. So let me tell you a bit about the numbers, because we actually ran an internal survey last year across about 400 home care agencies \u2014 I don't have the exact citation in front of me but I remember the topline \u2014 and something like 78% of agencies using AI monitoring tools like ours saw a reduction in emergency incidents within the first 90 days. And when we model that out for an agency your size, say you've got somewhere between 60 to 80 active clients, we're looking at an average annual savings of around $184,000 when you factor in reduced liability exposure, reduced overtime for emergency staffing, and fewer hospital-related care gaps. That's a pretty conservative number too, honestly I could probably push it higher."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah, so would you agree that I'm being conservative with that estimate, given what you know about your own caseload and your own risk exposure?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I mean, maybe, I'd have to think about it."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally fair, totally fair, and that's exactly why I wanted to just show you the platform first, so you have something concrete to think about instead of just numbers on a slide. Now, let me ask you this \u2014 how many caregivers do you currently have doing visits on a weekly basis, just so I can calibrate the rest of this walkthrough for you?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Around 45 or so."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Okay perfect, 45 caregivers, that's a great size for us, that's really our sweet spot actually. So with 45 caregivers, what we typically see is somewhere between 15 and 20 hours a week of admin time saved on your office staff's end alone, because they're not manually calling to check in, they're not doing wellness checks over the phone, all of that's automated and flagged for them. And I know you didn't mention this yet, but a lot of owners in your position are also juggling compliance audits from state regulators, and this tool basically hands you an audit trail on a silver platter, so that's another layer of value there. Does that align with some of the pain points you've been dealing with?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, a little bit, I mean audits are annoying for sure."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right, exactly, everybody says that, audits are the worst, and that's honestly one of the top three reasons agencies sign with us. So look, I don't want to keep you too long, but I do want to mention, we've got a promotion running right now where if you sign on before the end of this month, we waive the setup fee, which is normally about $3,500, and we also lock in your per-client rate for 24 months instead of the usual 12. That's a pretty significant savings if you think about it long term, especially with your caseload size."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Oh, okay, that's good to know I guess."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah for sure, and I don't want you to feel rushed, but I'd hate for you to miss out on that pricing lock, because after this month it goes back to standard rates and honestly I don't know when we'll run this offer again. So, is there anything holding you back right now from just moving forward, or is it more of a timing thing?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Well, honestly, the timing thing is kind of funny because I'm actually in talks to sell the agency right now."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Oh interesting, okay, well that's actually not a bad thing at all, because a tool like this can actually increase the valuation of your agency when you're going through due diligence, buyers love to see tech-enabled operations, it shows scalability. So if anything, this might be perfect timing for you. But let's not get too far into the weeds on that \u2014 I really do think the best next step here is just getting you set up with a login so you can poke around the dashboard yourself and see the value firsthand."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, maybe, I'd need to check with my partner first though."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Sure, sure, that makes sense, definitely loop in your partner. I'll go ahead and just send over the pricing sheet and the promo details today so you've got it in hand, and like I said, that end-of-month deadline is real, so if you can get me any kind of verbal commitment before then, I can get the paperwork moving on our end super fast. Does that sound reasonable?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, I guess we can look at it."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect, I'll shoot that over right after this call then, and honestly I think once you and your partner see the ROI numbers side by side with what you're currently spending, it's going to be a pretty easy decision. I really appreciate your time today, and again, huge value here especially given everything going on with the potential sale, so let's stay in touch."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, sounds good, talk soon."
+    }
+  ]
+}

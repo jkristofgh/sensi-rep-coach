@@ -1,0 +1,89 @@
+{
+  "call_id": "R5_disc_001",
+  "rep_id": "R5",
+  "rep_name": "Marco Bellini",
+  "product": "Cally",
+  "call_type": "discovery",
+  "date": "2026-05-01",
+  "quality_profile": "mixed",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hi, is this Denise? This is Marcus with Sensi.AI\u2014thanks for hopping on. I know you're running an agency so I'll keep this focused. Before I dive in, can you give me a quick sense of how many caregivers and clients you're managing right now?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, we've got about 45 caregivers and around 60 clients, mostly private pay, some Medicaid waiver."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Got it, that's a solid size. And when it comes to overseeing care quality between visits\u2014like knowing if something's off with a client, a fall risk, a medication issue\u2014how are you handling that today? Is it mostly caregiver notes, family calls, or something else?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly it's caregiver notes in our app, and then family calls us when something's wrong, which is usually after the fact. We don't have a great early warning system."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's really common, and it's actually the core problem Cally and our voice AI platform are built around. So Sensi.AI listens in on care visits with consent, obviously, and picks up on things like cognitive changes, fall risk indicators, medication concerns, even caregiver performance issues\u2014stuff that normally would just get buried in a note nobody reads carefully. Cally specifically is our AI voice agent that can call clients or families proactively, check in, and surface issues before they become a crisis or a complaint. Does something like that resonate with a pain point you're already feeling?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, honestly our biggest headache is family complaints coming out of nowhere. Like a client falls, and the family says \"why didn't anyone tell us this was getting worse,\" and we didn't have visibility either."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's exactly the gap we close. Agencies using our platform have seen meaningful operational lift too\u2014one thing I can point to concretely is agencies reporting about 35% more billable hours because caregivers and schedulers aren't spending as much time on manual check-ins and documentation cleanup, and that time gets redirected to actual care delivery. It's not just a safety net, it also frees up capacity. Does capacity or caregiver time feel like a constraint for you right now?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "A little bit, yeah. We're always short-staffed and our office coordinators spend a lot of time just calling clients to check in, which honestly could probably be automated."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a perfect use case for Cally specifically. Instead of your coordinator manually dialing 60 clients a week for wellness checks, Cally can handle a portion of those calls, ask the right questions, flag anything concerning, and hand your team a summary instead of a raw transcript. So your coordinators are only stepping in when there's actually something to act on. I'll be honest though, I don't want to oversell it\u2014it's not going to replace human judgment entirely, it's more about catching things earlier and giving your team leverage."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay that makes sense. My concern though is the \"AI listening in\" piece. Some of our clients and families are already a little wary of technology, especially older clients. How do you handle that pushback?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a fair concern and we get it a lot, especially with an older client base. A few things: first, it's opt-in and disclosed clearly to the client and family, it's not hidden monitoring. Second, in practice agencies tell us families actually feel more reassured once they understand it's there to catch problems early, not to surveil anyone\u2014it shifts the conversation from \"we found out too late\" to \"we caught this early.\" And third, adoption tends to go smoother when it's framed as a safety layer for the family, not a tech gimmick for the agency. I won't pretend zero clients ever push back, but it's usually a minority once it's explained well."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's helpful. I guess I'd want to see how the actual family-facing messaging works before I roll it out to my whole client base."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Completely fair, and honestly that's the right instinct\u2014I wouldn't want you flipping it on for 60 clients without seeing it first. What I'd suggest is we set up a session where I walk you and maybe one of your coordinators through an actual demo, including the disclosure language and a sample of what Cally's check-in call and summary actually look like, so you can judge for yourself if it fits your client base."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, that could be useful. I'd want my ops manager in on that too since she handles most of the family communication."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Definitely bring her in, that's probably the right person for the conversation anyway. I'll follow up next week to find a time that works for both of your schedules, and I can send over a bit of background on the billable hours data and how other agencies have rolled out the disclosure piece so you're not walking in cold."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good, that works for me."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Great, I appreciate the time today, Denise. One last thing\u2014out of curiosity, is the fall-risk and family-complaint issue the biggest priority for you right now, or is staffing capacity actually the bigger fire you're fighting?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Probably both honestly, but the family trust piece keeps me up more at night."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's helpful context, I'll make sure the demo leans into that side of it specifically rather than just the efficiency numbers. I'll reach out next week to get something on the calendar."
+    }
+  ],
+  "account": "Silver Oak Caregivers"
+}

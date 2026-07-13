@@ -1,0 +1,120 @@
+{
+  "call_id": "R5_demo_002",
+  "rep_id": "R5",
+  "rep_name": "Marco Bellini",
+  "product": "Cally",
+  "call_type": "demo_close",
+  "date": "2026-04-23",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 67,
+  "penalty": 6,
+  "deterministic": {
+    "talk_ratio": 0.756,
+    "rep_questions": 2,
+    "open_questions": 0,
+    "next_step_booked": true,
+    "monologue_max_words": 114
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 4.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "how many caregivers do you have active right now, and roughly how many of your clients are private pay versus on some kind of managed care contract?"
+      ],
+      "tip": "Continue leading every demo with a quick discovery check-in before pitching, but tighten the transition into value tied specifically to what was just learned."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 2.0,
+      "weight": 0.1,
+      "signal": "hybrid",
+      "evidence": [
+        "We're at about 60 caregivers, maybe 140 clients. Split's roughly 70% private pay, 30% through a couple of MCO contracts."
+      ],
+      "tip": "Dig deeper into timeline, budget authority, and decision process (e.g., what does the partner need to approve, when do they want to go live) rather than just caseload mix."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 3,
+      "weight": 0.1,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 76% of the call"
+      ],
+      "tip": "Aim for more listening \u2014 open with questions and let the buyer talk."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 3.0,
+      "weight": 0.12,
+      "signal": "llm",
+      "evidence": [
+        "I do need something concrete before I bring this to my partner. She's going to ask 'what's the ROI' in the first thirty seconds."
+      ],
+      "tip": "Explicitly ask what budget range or timeline the partner has in mind so the proposal can be scoped to close, not just informative."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 5.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "My worry is my caregivers, honestly \u2014 some of them are older, less tech-savvy, and I can already hear them saying 'is this replacing me'"
+      ],
+      "tip": "Keep pairing objection responses with a customer proof point (e.g., Diana story) to make the resolution concrete rather than anecdotal."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 4.0,
+      "weight": 0.2,
+      "signal": "llm",
+      "evidence": [
+        "that's a stat from Sensi's customer base broadly, not something I'm promising you specifically will hit"
+      ],
+      "tip": "When citing the 35% stat, proactively offer the source/context up front rather than waiting for the prospect to push back."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 3.5,
+      "weight": 0.18,
+      "signal": "hybrid",
+      "evidence": [
+        "I'll put it together and follow up next week"
+      ],
+      "tip": "Lock a specific date/time for the follow-up call and proposal delivery instead of a vague 'next week.'"
+    }
+  ],
+  "flags": [
+    {
+      "type": "unsupported_claim",
+      "evidence": "We've seen agencies using this pick up 35% more billable hours just from documentation that actually reflects the care being delivered"
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "35% Billable Hours Methodology One-Pager",
+      "why": "Prospect explicitly asked for the source behind the 35% stat before bringing it to her partner; a sourced breakdown would speed trust and proposal credibility."
+    },
+    {
+      "title": "Caregiver Adoption / Non-Monitoring Talk Track",
+      "why": "Denise raised the caregiver 'is this spying on me' objection which was handled well verbally but a written positioning guide would help her sell it internally."
+    },
+    {
+      "title": "ROI Calculator Tied to Caseload Mix",
+      "why": "Buyer needs a concrete, agency-specific ROI figure for her partner meeting rather than the general case-study stat."
+    }
+  ],
+  "summary": "Solid discovery-first demo with strong, honest objection handling (caregiver adoption, dementia clients) and appropriate caveats on the 35% stat. However, next steps remain vague ('next week') without a firm date, and discovery stopped short of budget/timeline/decision process needed to qualify this as a real opportunity.",
+  "account": "Harbor Light Home Care"
+}

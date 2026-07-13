@@ -1,0 +1,98 @@
+{
+  "call_id": "R3_demo_new",
+  "rep_id": "R3",
+  "rep_name": "Sam Okafor",
+  "product": "Sally",
+  "account": "Silver Oak Caregivers",
+  "call_type": "demo_close",
+  "date": "2026-05-14",
+  "quality_profile": "developing",
+  "kind": "synthetic",
+  "scored": false,
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey, thanks for hopping on the demo today. I'm excited to walk you through Sally and how she's helping home care agencies like yours stay ahead of client needs. Before I dive in, can you tell me a little about your agency size and what your biggest headache is day to day?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, we've got about 45 caregivers and 60 clients. Honestly, keeping tabs on everyone between visits is tough, especially with our smaller staff."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally get that, that's actually the exact gap Sally was built to close. She's an AI voice companion that calls your clients between visits, checks in on their wellbeing, and flags anything concerning to your care team automatically. One of our agency partners saw a 30% reduction in missed care visits within the first few months of using her, which is huge for retention and outcomes."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's interesting. We actually had a fall last month that we didn't hear about until two days later from a family member."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right, and that's the kind of gap Sally closes. She's designed to catch those changes before they become emergencies, and again, that 30% reduction in missed visits number really speaks to how much more visibility agencies get. It's a game changer for care coordination."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay. How does she actually know something's wrong, though? Is it just a check-in call?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Great question. She calls on a schedule you set, has a natural conversation, and uses sentiment and keyword analysis to detect things like confusion, pain, or mood changes. Then she sends alerts straight to your care coordinators' dashboard. It ties back to that same stat I mentioned, agencies using Sally see fewer missed visits and issues because they're catching things sooner."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Got it. Does it integrate with our current scheduling software?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yep, she integrates with most major EMR and scheduling platforms, so there's minimal disruption to your existing workflow. And again, going back to that 30% number, agencies really see the ROI show up fast because you're not scrambling to react to missed check-ins anymore."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, that's helpful. What's the pricing look like for an agency our size?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Pricing is based on client volume, so for 60 clients you'd be looking at a mid-tier package. I don't have the exact number pulled up right now, but I can get you a customized quote. Honestly, most agencies our size see it pay for itself pretty quickly given that reduction in missed visits I mentioned."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Alright. I'd want to see that in writing before I make any decisions."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Of course, that makes total sense. I'll send over some info on pricing and a case study that breaks down that 30% stat in more detail so you can see how it played out for a similar-sized agency."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good. We're also looking at a couple other options, so I'll want to compare."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally fair, I think once you see the data on missed visit reduction, it'll make the comparison pretty clear. I'll put together a packet with everything you need."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, appreciate that. When would I hear back from you?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "I'll get that info over to you this week, and then we can find some time to reconnect after you've had a chance to look it over."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds fine. Just email me whenever it's ready."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Will do. Thanks again for your time today, I really think Sally could make a big difference for your team, especially with the visibility she gives you between visits."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, we'll see. Thanks for the call."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Of course, talk soon!"
+    }
+  ]
+}

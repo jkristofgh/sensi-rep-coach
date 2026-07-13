@@ -1,0 +1,74 @@
+{
+  "call_id": "R5_fu_new",
+  "rep_id": "R5",
+  "rep_name": "Marco Bellini",
+  "product": "Olly",
+  "account": "Golden Years Care",
+  "call_type": "follow_up",
+  "date": "2026-05-16",
+  "quality_profile": "mixed",
+  "kind": "synthetic",
+  "scored": false,
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey Sarah, thanks for hopping back on with me. Last time we spoke you mentioned you were juggling caregiver call-offs and some family complaints about visibility into visits. I wanted to pick up there \u2014 how's that been going the last couple weeks?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly, about the same. We had two families call in last week asking why nobody told them their mom skipped her shower routine one day. Our caregivers say they did it, but there's no record either way, so it just turns into a he-said-she-said thing with the office."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah, that's exactly the gap Olly's built to close. It's not a camera, it's a voice-based AI companion that checks in during the visit, picks up on things like missed ADLs, mood changes, safety concerns, and it logs all of that automatically so your care team and the family actually have a record instead of relying on memory. A few of our agencies have seen it drive their billable hours up meaningfully \u2014 we've got data showing about 35% more billable hours once they get the documentation and oversight piece running smoothly, because caregivers aren't wasting time on manual notes and agencies catch things sooner instead of losing hours to disputes or care plan changes nobody flagged."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's interesting, but I've got fifteen caregivers who barely want to use the app we already have. How do you get them to actually adopt something new without a fight?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally fair pushback, and I'd be lying if I said adoption is automatic with any tool. What's different here is Olly isn't asking caregivers to do extra data entry \u2014 it's passive, it's listening and prompting during the visit itself, so the caregiver's actual job doesn't change much, they just have a helper in the room. Agencies that rolled it out slow, like one unit or one team first, saw caregivers warm up faster because they weren't threatened by it, they saw it catch things they'd have missed anyway, like a fall risk or a medication mix-up."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, and what about the sales side? You mentioned something last time about conversion."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right, so on the intake side, when families are shopping around comparing agencies, having that added layer of oversight becomes a real differentiator in your sales conversations \u2014 agencies using Olly as part of their pitch to prospective families have seen about 2.6x higher conversion from initial inquiry to signed care plan, because families feel like they're getting real accountability, not just a caregiver showing up and hoping for the best."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's a big number. I'd want to see how that actually plays out for an agency our size, though \u2014 we're only doing about 40 active clients right now, not some huge multi-state operation."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That makes sense, and honestly the mechanics don't really change based on size \u2014 it's more about how many caregivers you're running through the system and how tight your margins are on missed visit disputes or family churn. For an agency your size, I'd actually recommend we look at a smaller pilot, maybe start with five or six caregivers on your toughest cases, the ones where families are already asking questions, and use that as a proof point internally before you roll it out wider."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I could see that working. I'd need to loop in my ops manager though, she's the one dealing with the caregiver pushback day to day, not me."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a great call, honestly she should be in the room for this anyway since she'll feel the adoption piece more than anyone. Why don't I put together a short one-page rollout plan for the pilot, five or six caregivers, tied to those families who've already raised concerns, and you can share it with her before we talk again?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, send that over. I'll look at it with her and see what she thinks."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Sounds good. I'll follow up sometime next week once you've had a chance to talk it through with her \u2014 feel free to shoot me questions in the meantime too, especially anything specific about the caregiver-facing side since that's clearly the sticking point for your team."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Will do. Appreciate you not just throwing numbers at me without listening to what's actually going on here."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Of course, that's the only way this actually works for you. Talk soon, Sarah."
+    }
+  ]
+}

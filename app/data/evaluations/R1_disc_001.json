@@ -1,0 +1,121 @@
+{
+  "call_id": "R1_disc_001",
+  "rep_id": "R1",
+  "rep_name": "Alex Rivera",
+  "product": "Platform",
+  "call_type": "discovery",
+  "date": "2026-04-08",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 74,
+  "penalty": 6,
+  "deterministic": {
+    "talk_ratio": 0.465,
+    "rep_questions": 15,
+    "open_questions": 1,
+    "next_step_booked": false,
+    "monologue_max_words": 78
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 5.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "Before I say anything about us, can I ask what's driving you to even take this call right now?"
+      ],
+      "tip": "Continue leading with open discovery before introducing product framing, as done here."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 3.5,
+      "weight": 0.22,
+      "signal": "hybrid",
+      "evidence": [
+        "We're at about 140 active clients across three offices... those calls happen maybe every couple weeks, not daily."
+      ],
+      "tip": "Keep layering business-impact questions (turnover, billing, referrals) the way this call did to build a full picture before pitching."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 5,
+      "weight": 0.13,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 46% of the call"
+      ],
+      "tip": "Healthy talk/listen balance \u2014 keep it up."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 4.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "We've had two clients discharge from us this year specifically because families felt like we weren't catching things early enough."
+      ],
+      "tip": "Explicitly ask about budget/approval process and timeline for a decision, not just pain points, to fully qualify the opportunity."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 3.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "That's fair, and I don't want to overstate it before you've seen it in your own environment."
+      ],
+      "tip": "Since no real objection was raised, proactively surface likely concerns (cost, staff adoption) to test resilience rather than waiting for pushback."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 4.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "agencies on our platform have seen up to 2.6 times higher conversion on referrals",
+        "agencies using Sensi typically capture 35% more billable hours"
+      ],
+      "tip": "Attribute the turnover and time-reclaim stats to a named source or case study to keep every number traceable to published proof."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 3.5,
+      "weight": 0.15,
+      "signal": "hybrid",
+      "evidence": [
+        "Thursday at 2pm works for me, let me just double check with Denise, but I don't anticipate a conflict."
+      ],
+      "tip": "Confirm the calendar invite is sent same-day to lock the commitment before the prospect can waver."
+    }
+  ],
+  "flags": [
+    {
+      "type": "unsupported_claim",
+      "evidence": "most of our agency clients see care managers reclaim 30-40% of that review time"
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "35% Billable Hours Case Study",
+      "why": "Reinforces the billing/documentation pain point surfaced and gives Denise concrete proof before the working session."
+    },
+    {
+      "title": "2.6x Referral Conversion One-Pager",
+      "why": "Directly supports the referral acuity conversation with the hospital discharge planner use case."
+    },
+    {
+      "title": "Sally: Inside Sales Force Agent Overview",
+      "why": "Could strengthen the referral/intake speed discussion since the prospect flagged staffing delays hurting referral turnaround."
+    }
+  ],
+  "summary": "Strong discovery-led call that uncovered real operational and financial pain (missed escalations, turnover, referral acuity, billing leakage) before introducing product value tied directly to those levers. Proof points align closely with published stats, though a couple of stats (30-40% time reclaim) lack sourcing, and objection-handling wasn't tested since no pushback occurred. Ended with a firm, dated next step involving the right stakeholders.",
+  "account": "Comfort Keepers of Elmwood"
+}

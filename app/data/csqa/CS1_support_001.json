@@ -1,0 +1,33 @@
+{
+  "call_id": "CS1_support_001",
+  "rep_id": "CS1",
+  "rep_name": "Riley Chen",
+  "product": "Cally",
+  "account": "Lakeside Home Care",
+  "call_type": "inbound_support",
+  "date": "2026-05-12",
+  "quality_profile": "support-solid",
+  "kind": "synthetic",
+  "note": "Speaker labels are Rep (support agent) / Prospect (customer) so the UNCHANGED engine's deterministic pass (talk ratio, question density) works. Scored with rubric_csqa.yaml.",
+  "turns": [
+    {"speaker": "Rep", "text": "Thanks for calling Sensi support, this is Riley. Before we get into it, can I grab your name and the agency you're calling about so I can pull up the right account?"},
+    {"speaker": "Prospect", "text": "Hi Riley, this is Dana, I'm the care manager at Lakeside Home Care. Something's wrong — I'm not seeing any alerts for one of our clients and I'm honestly a little worried we're missing something."},
+    {"speaker": "Rep", "text": "I completely understand, that's exactly the kind of thing we want to get ahead of. Let me verify the account first — can you confirm the email on file or the last four of the account ID?"},
+    {"speaker": "Prospect", "text": "Sure, it's dana at lakeside-hc dot com, and the account ID ends in 4471."},
+    {"speaker": "Rep", "text": "Perfect, that matches — thanks Dana. Now walk me through what you're seeing. Which client is it, and when did the alerts stop showing up?"},
+    {"speaker": "Prospect", "text": "It's Mr. Alvarez. We were getting the usual overnight activity alerts up until about two days ago, and then nothing. His timeline just goes blank after Sunday night."},
+    {"speaker": "Rep", "text": "Got it. And did anything change on your end around Sunday — a device swap, a move to a new room, a battery replacement, anything like that?"},
+    {"speaker": "Prospect", "text": "Now that you mention it, yes — the caregiver swapped out the hub on Sunday because the old one was making a buzzing noise. She said she just plugged the new one in the same spot."},
+    {"speaker": "Rep", "text": "That's almost certainly it, and it's a common one. When a hub is swapped, the new device has to be re-paired to the client's profile — plugging it in isn't enough, so the new hub isn't linked to Mr. Alvarez yet, which is why his timeline went quiet. Nothing was lost on our side; the alerts just have nowhere to attach."},
+    {"speaker": "Prospect", "text": "Oh thank goodness. So how do we fix it? Do I need to send someone back out?"},
+    {"speaker": "Rep", "text": "No visit needed. I can send a re-pair link to the caregiver's app, or you can do it from the agency admin console under the client's profile — Devices, then Pair New Hub, and confirm the serial on the bottom of the unit. Which would you prefer?"},
+    {"speaker": "Prospect", "text": "Let's do it from my admin console now while I've got you, so I know it's done right."},
+    {"speaker": "Rep", "text": "Great, I'll stay on with you. Open Mr. Alvarez's profile, go to Devices, and tell me what you see for the hub status."},
+    {"speaker": "Prospect", "text": "Okay... it says 'Unlinked device detected.' I clicked Pair New Hub and entered the serial. Now it says 'Paired — syncing.'"},
+    {"speaker": "Rep", "text": "That's exactly what we want. It'll finish syncing in a few minutes and you should see live activity resume on his timeline tonight. One thing to double-check while we're here — his sensitivity threshold is set per client, so let's confirm it carried over. Can you look under Notifications on his profile?"},
+    {"speaker": "Prospect", "text": "Yes, it still shows 'Overnight activity — high sensitivity,' same as before."},
+    {"speaker": "Rep", "text": "Good, that means his settings are intact. To be safe I'd like to confirm it's actually reporting rather than assume — I'll set a follow-up for tomorrow morning at 9 and call you to verify last night's alerts came through. If for any reason they didn't, I'll escalate it to our devices team on the spot. Does 9am work?"},
+    {"speaker": "Prospect", "text": "That would be great, yes. Thank you for staying on and walking me through it, I feel a lot better."},
+    {"speaker": "Rep", "text": "Of course, Dana — that's what we're here for. You'll get a confirmation email with these steps and my follow-up time, and I've noted the hub swap on the account. Talk tomorrow at 9."}
+  ]
+}

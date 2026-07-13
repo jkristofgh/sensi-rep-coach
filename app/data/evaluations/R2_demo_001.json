@@ -1,0 +1,121 @@
+{
+  "call_id": "R2_demo_001",
+  "rep_id": "R2",
+  "rep_name": "Priya Shah",
+  "product": "Sally",
+  "call_type": "demo_close",
+  "date": "2026-04-30",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 60,
+  "penalty": 6,
+  "deterministic": {
+    "talk_ratio": 0.809,
+    "rep_questions": 0,
+    "open_questions": 0,
+    "next_step_booked": true,
+    "monologue_max_words": 104
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 4.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "I want to pick up right there and show you how Sally actually works day to day, then talk about what a next step could look like"
+      ],
+      "tip": "Add a brief renewed discovery check before diving into product to confirm nothing's changed since the last call."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 1.5,
+      "weight": 0.1,
+      "signal": "hybrid",
+      "evidence": [
+        "We've got about 40 caregivers across 65 clients, and half my office staff's time goes into just chasing down \"did the visit happen, is everything okay\""
+      ],
+      "tip": "Ask open questions about timeline, budget authority, and decision process rather than relying on prior-call recall and letting the prospect drive follow-up questions."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 2,
+      "weight": 0.1,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 81% of the call"
+      ],
+      "tip": "Aim for more listening \u2014 open with questions and let the buyer talk."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 3.0,
+      "weight": 0.12,
+      "signal": "llm",
+      "evidence": [
+        "I do want to see actual numbers before I get my team excited about this.",
+        "I'd want to loop in my ops manager too before we commit to anything."
+      ],
+      "tip": "Explicitly probe budget range and decision timeline instead of just noting the ops manager and moving to next steps."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 4.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "do families actually agree to have an AI calling into their home? That feels like it could freak people out."
+      ],
+      "tip": "After resolving each objection, confirm with the prospect that the concern is fully addressed before moving on."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 3.0,
+      "weight": 0.2,
+      "signal": "llm",
+      "evidence": [
+        "Agencies using this have seen close to 35% more billable hours recovered, because staff aren't burning time on manual check-in calls"
+      ],
+      "tip": "Keep the 35% billable-hours stat tied to its published meaning (billable hours, not just admin time) to avoid conflating two different claims when questioned."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 4.5,
+      "weight": 0.18,
+      "signal": "hybrid",
+      "evidence": [
+        "I'll get the proposal built out this week and follow up with you next week to walk through it together, maybe with her on the line too."
+      ],
+      "tip": "Lock a specific date/time for the follow-up call rather than 'next week' to make the commitment firmer."
+    }
+  ],
+  "flags": [
+    {
+      "type": "unsupported_claim",
+      "evidence": "That's office/admin time reclaimed \u2014 the coordination and QA work that used to eat your team's day."
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Discovery question bank for demo_close calls",
+      "why": "Rep leaned on prior-call notes instead of fresh open discovery on budget, timeline, and decision process."
+    },
+    {
+      "title": "Billable-hours proof-point one-pager (35% stat definition)",
+      "why": "The rep's explanation of the 35% stat shifted mid-conversation and could confuse prospects on what's actually measured."
+    },
+    {
+      "title": "Meeting-locking script/calendar tool",
+      "why": "Next step was directionally strong but lacked a firm date/time, risking follow-up slippage."
+    }
+  ],
+  "summary": "The rep ran a competent product-and-value walkthrough with solid objection handling on privacy, caregiver pushback, and implementation timeline, and surfaced a relevant new signal (competitive losses at decision stage). However, discovery was thin\u2014mostly recalled from a prior call rather than freshly probed\u2014and the 35% billable-hours claim was presented then reframed in a way that could create confusion versus Sensi's published definition. The next step is promising but not locked to a specific date/time.",
+  "account": "Evergreen Home Care"
+}

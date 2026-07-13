@@ -1,0 +1,104 @@
+{
+  "call_id": "CS1_support_001",
+  "rep_id": "CS1",
+  "rep_name": "Riley Chen",
+  "product": "Cally",
+  "account": "Lakeside Home Care",
+  "call_type": "inbound_support",
+  "date": "2026-05-12",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 93,
+  "penalty": 0,
+  "deterministic": {
+    "talk_ratio": 0.664,
+    "rep_questions": 7,
+    "open_questions": 2,
+    "next_step_booked": true,
+    "monologue_max_words": 61
+  },
+  "dimensions": [
+    {
+      "key": "verification_empathy",
+      "label": "Verification & empathy",
+      "score": 5.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "Let me verify the account first \u2014 can you confirm the email on file or the last four of the account ID?",
+        "I completely understand, that's exactly the kind of thing we want to get ahead of."
+      ],
+      "tip": "Continue leading with verification plus a reassurance line before diagnosis."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Issue diagnosis",
+      "score": 4.0,
+      "weight": 0.22,
+      "signal": "hybrid",
+      "evidence": [
+        "And did anything change on your end around Sunday \u2014 a device swap, a move to a new room, a battery replacement, anything like that?"
+      ],
+      "tip": "Keep probing for recent environment/hardware changes before jumping to a fix, as done here."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 4,
+      "weight": 0.13,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 66% of the call"
+      ],
+      "tip": "Healthy talk/listen balance \u2014 keep it up."
+    },
+    {
+      "key": "knowledge_accuracy",
+      "label": "Knowledge accuracy",
+      "score": 5.0,
+      "weight": 0.18,
+      "signal": "llm",
+      "evidence": [
+        "When a hub is swapped, the new device has to be re-paired to the client's profile \u2014 plugging it in isn't enough",
+        "his sensitivity threshold is set per client, so let's confirm it carried over"
+      ],
+      "tip": "None needed \u2014 information matches reference facts on re-pairing and per-client thresholds."
+    },
+    {
+      "key": "resolution_quality",
+      "label": "Resolution quality",
+      "score": 5.0,
+      "weight": 0.2,
+      "signal": "llm",
+      "evidence": [
+        "Now it says 'Paired \u2014 syncing.'",
+        "Good, that means his settings are intact."
+      ],
+      "tip": "Consider also pointing customer to historical timeline data to reassure nothing was lost during the gap."
+    },
+    {
+      "key": "next_step",
+      "label": "Resolution confirmation & follow-up",
+      "score": 5.0,
+      "weight": 0.12,
+      "signal": "hybrid",
+      "evidence": [
+        "I'll set a follow-up for tomorrow morning at 9 and call you to verify last night's alerts came through.",
+        "If for any reason they didn't, I'll escalate it to our devices team on the spot."
+      ],
+      "tip": "Excellent firm, dated follow-up with clear escalation path \u2014 maintain this standard."
+    }
+  ],
+  "flags": [],
+  "recommendations": [
+    {
+      "title": "Reference historical timeline retention proactively",
+      "why": "Mentioning that historical alert data is retained and viewable could further reassure customers that no data was lost during outages."
+    },
+    {
+      "title": "Standardize post-fix verification calls",
+      "why": "This rep's practice of scheduling a firm follow-up call to confirm the fix worked should be modeled across the team."
+    }
+  ],
+  "summary": "Riley handled this call exceptionally well: verified identity, empathetically acknowledged concern, diagnosed root cause through targeted discovery questions, and walked the customer through a live fix with accurate technical explanations. The call closed with a firm, dated follow-up and clear escalation ownership, exemplifying the full prescribed motion."
+}

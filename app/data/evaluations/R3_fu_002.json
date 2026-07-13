@@ -1,0 +1,124 @@
+{
+  "call_id": "R3_fu_002",
+  "rep_id": "R3",
+  "rep_name": "Sam Okafor",
+  "product": "Cally",
+  "call_type": "follow_up",
+  "date": "2026-04-24",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 24,
+  "penalty": 12,
+  "deterministic": {
+    "talk_ratio": 0.708,
+    "rep_questions": 3,
+    "open_questions": 0,
+    "next_step_booked": false,
+    "monologue_max_words": 77
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 2.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "that's exactly the kind of thing Cally helps with. Just to remind you, Cally is our AI voice agent"
+      ],
+      "tip": "Before pitching, ask discovery questions about Linda's current process, decision timeline, and what stalled the deal last month."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 1.0,
+      "weight": 0.12,
+      "signal": "hybrid",
+      "evidence": [
+        "Did you get a chance to think it over on your end?"
+      ],
+      "tip": "Probe deeper into caregiver turnover, billable-hour impact, and decision criteria instead of pivoting straight to product talk after one open question."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 4,
+      "weight": 0.1,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 71% of the call"
+      ],
+      "tip": "Healthy talk/listen balance \u2014 keep it up."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 1.0,
+      "weight": 0.16,
+      "signal": "llm",
+      "evidence": [
+        "What would it take to actually get this set up if we wanted to move forward?"
+      ],
+      "tip": "When the prospect asks about setup/timeline, treat it as a buying signal and qualify budget, decision-maker involvement (Denise), and target start date rather than deflecting to 'send info.'"
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 2.0,
+      "weight": 0.16,
+      "signal": "llm",
+      "evidence": [
+        "We're a smaller shop though, only about 35 caregivers, so I don't know if we're the same scale as that 200-caregiver example."
+      ],
+      "tip": "Back up the 'scales down well' claim with a small-agency proof point or customer story instead of an unsupported assertion."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 2.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "One of our agency customers with around 200 caregivers told us Cally cut their missed check-in follow-ups dramatically"
+      ],
+      "tip": "Use only published, specific Sensi metrics (e.g., 35% more billable hours, 300% retention) rather than vague anecdotal claims with no numbers."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 1.5,
+      "weight": 0.26,
+      "signal": "hybrid",
+      "evidence": [
+        "I'll shoot that over and we can regroup whenever you've had a chance to digest it."
+      ],
+      "tip": "Lock in a specific date/time for the follow-up call instead of an open-ended 'whenever you've had a chance.'"
+    }
+  ],
+  "flags": [
+    {
+      "type": "unsupported_claim",
+      "evidence": "cut their missed check-in follow-ups dramatically"
+    },
+    {
+      "type": "unsupported_claim",
+      "evidence": "smaller agencies actually see relief faster because your coordinators are wearing so many hats already"
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Discovery question bank for follow-up calls",
+      "why": "Rep skipped fresh discovery and jumped to product pitch; a structured question guide would surface timeline, budget, and decision process."
+    },
+    {
+      "title": "Published proof-point one-pager (35% billable hours, 300% retention, etc.)",
+      "why": "Rep used vague anecdotal claims instead of citing Sensi's actual published metrics, weakening proof fidelity."
+    },
+    {
+      "title": "Next-step commitment script/calendar template",
+      "why": "Call ended with a diffuse 'whenever' instead of a firm dated meeting, which risks stalling the deal further."
+    }
+  ],
+  "summary": "The rep skipped genuine discovery and moved straight into a product pitch, missing the chance to explore Linda's specific pain points, budget, and timeline. Proof points were vague and anecdotal rather than tied to Sensi's published metrics, and the call closed with a soft, undated next step despite a clear buying signal ('what would it take to move forward').",
+  "account": "Bright Path Home Health"
+}

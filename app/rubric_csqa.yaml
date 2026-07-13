@@ -1,0 +1,94 @@
+# rubric_csqa.yaml — a SECOND team on the SAME engine (Phase-3 templating proof / AC8).
+#
+# This is Customer-Support QA on Sensi *support* calls (support agent ↔ care-agency customer),
+# NOT sales. It was produced by duplicating rubric.yaml and swapping only config: the evaluator
+# role, the prescribed motion, the reference facts, the dimensions, and the flags. The scoring
+# engine (scoring.py) is UNCHANGED — `scoring.py` reads every one of these fields from the rubric.
+#
+# The deterministic/hybrid dimension KEYS (talk_listen_balance, discovery_quality, next_step) are
+# reused because those signals (agent airtime, probing-question density, a firm follow-up) transfer
+# directly to support QA — they're just relabeled for the support context. Everything else is new.
+
+version: "1.0.0"
+name: "Sensi Support — Customer-Support QA Rubric"
+evaluator_role: "customer-support QA"
+scale: {min: 0, max: 5}
+signal_key:
+  deterministic: "computed in code from the transcript"
+  llm: "Claude judgment with verbatim evidence quotes"
+  hybrid: "blend of a computed signal and LLM judgment"
+
+# --- grounding the LLM pass (injected into the scoring prompt) -----------------------------------
+# The support best-practice flow — the benchmark for issue_diagnosis / resolution ordering.
+motion:
+  agenda: ["Greet & verify the account",
+           "Understand the issue in the customer's words",
+           "Diagnose the root cause",
+           "Resolve or correctly escalate",
+           "Confirm the fix & set a clear follow-up"]
+  principle: "Verify and understand BEFORE resolving. Confirm the fix and leave a firm next step."
+
+# Sensi product/policy facts a support agent must state CORRECTLY — the benchmark for
+# knowledge_accuracy (mis-statements are flagged as misinformation).
+proof_wall:
+  - "Cally is the care co-pilot; Olly is the ops agent; Sally is the AI seller agent"
+  - "Alerts are generated from ambient voice + sentiment analysis in the home"
+  - "A device must be re-paired to the client profile after any hardware swap"
+  - "Sensitivity/notification thresholds are set per client in the agency admin console"
+  - "Customer data is handled under HIPAA safeguards (BAA in place)"
+  - "Standard support SLA: first response within 1 business hour; P1 outages escalated immediately"
+  - "Historical alert data is retained and viewable in the client timeline"
+persona:
+  buyer: "Home-care agency customer (admin / care manager) contacting Sensi support"
+  pain: "Needs a fast, correct resolution and reassurance that client monitoring is working."
+
+# --- dimensions ---------------------------------------------------------------------------------
+# call types for support: inbound_support · escalation · follow_up (weights sum to ~1.0 each).
+dimensions:
+  - key: verification_empathy
+    label: "Verification & empathy"
+    description: "Did the agent greet, verify the account/identity, and acknowledge the customer's concern before diving in?"
+    signal: llm
+    weights: {inbound_support: 0.15, escalation: 0.18, follow_up: 0.10}
+
+  - key: discovery_quality            # reused deterministic/hybrid key → relabeled "Issue diagnosis"
+    label: "Issue diagnosis"
+    description: "Did the agent probe with open questions to understand the ACTUAL issue and its root cause before proposing a fix (vs. assuming)?"
+    signal: hybrid
+    weights: {inbound_support: 0.22, escalation: 0.20, follow_up: 0.12}
+
+  - key: talk_listen_balance          # reused deterministic key
+    label: "Talk / listen balance"
+    description: "Agent vs. customer airtime. Talking over a frustrated customer is penalized; letting them explain is rewarded."
+    signal: deterministic
+    weights: {inbound_support: 0.13, escalation: 0.12, follow_up: 0.12}
+
+  - key: knowledge_accuracy
+    label: "Knowledge accuracy"
+    description: "Product/policy/troubleshooting information given is CORRECT and matches Sensi's reference facts. Misinformation scores low."
+    signal: llm
+    weights: {inbound_support: 0.18, escalation: 0.15, follow_up: 0.15}
+
+  - key: resolution_quality
+    label: "Resolution quality"
+    description: "Was the issue actually resolved (or correctly escalated with ownership), completely and correctly, not just deflected?"
+    signal: llm
+    weights: {inbound_support: 0.20, escalation: 0.20, follow_up: 0.25}
+
+  - key: next_step                    # reused deterministic/hybrid key → relabeled for support
+    label: "Resolution confirmation & follow-up"
+    description: "Did the agent confirm the fix worked and set a FIRM, dated follow-up / ownership (vs. a vague 'let us know if it happens again')?"
+    signal: hybrid
+    weights: {inbound_support: 0.12, escalation: 0.15, follow_up: 0.26}
+
+# --- flags (support-specific; same capped-penalty mechanism, all config) -------------------------
+flags:
+  penalty_per_flag: 6
+  penalty_cap: 15
+  types:
+    - key: unverified_identity
+      description: "Discussed account details or made changes without verifying the caller/account."
+    - key: misinformation
+      description: "Stated incorrect product, policy, or troubleshooting information."
+    - key: dismissive_tone
+      description: "Dismissive, impatient, or unempathetic handling of a worried/frustrated customer."

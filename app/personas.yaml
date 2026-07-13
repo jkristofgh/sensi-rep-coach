@@ -1,0 +1,89 @@
+# personas.yaml — the synthetic cast for Rep Coach.
+# Numeric profiles are CONFIG (not code) so the dataset is reproducible and easy to retune.
+# Dimension order matches rubric.yaml. Scores are 0–5 means; generate_data.py applies a fixed
+# weekly slope + seeded noise to build ~7 weeks of history that tells a clear dashboard story.
+
+meta:
+  seed: 42                       # fixed — reproducible dataset, no wall-clock/RNG at runtime
+  anchor_start: "2026-03-30"     # a Monday; week 0. History spans anchor_start .. +6 weeks
+  weeks: 7
+  calls_per_week: [1, 3]         # seeded random per rep/week within this range
+
+# Sensi's agent suite + platform bundle (exercises product-claim / proof-fidelity scoring).
+products:
+  - {id: Sally,    label: "Sally — Growth Agent (AI seller)"}
+  - {id: Olly,     label: "Olly — Ops Agent"}
+  - {id: Cally,    label: "Cally — Care Co-pilot"}
+  - {id: Platform, label: "Sensi Platform (full-OS bundle)"}
+
+call_types: [discovery, demo_close, follow_up]
+
+# Sales manager(s) — the user picker lists these alongside the reps; picking one renders the
+# manager view (all reps), picking a rep renders that rep's own view.
+managers:
+  - {id: M1, name: "Jordan Ellis", title: "Sales Manager"}
+
+# Synthetic prospect accounts (home-care agencies). An account is assigned to each call
+# deterministically (md5(call_id) % len) so activities can be attributed to an account.
+accounts:
+  - "Evergreen Home Care"
+  - "Sunrise Senior Services"
+  - "Golden Years Care"
+  - "Comfort Keepers of Elmwood"
+  - "Bright Path Home Health"
+  - "Silver Oak Caregivers"
+  - "Harbor Light Home Care"
+  - "Willow Creek Senior Care"
+  - "Everly Home Assist"
+  - "Maplewood Care Partners"
+
+# Dimensions (must match rubric.yaml keys), used to index the dim_base arrays below.
+dimensions:
+  [motion_adherence, discovery_quality, talk_listen_balance, buying_signal,
+   objection_handling, proof_fidelity, next_step]
+
+# 5 archetypes → a legible dashboard: a benchmark, a ramp, a plateau, an improvement curve.
+reps:
+  # dim order: [motion, discovery, talk_balance, buying_signal, objection, proof, next_step]
+  # Profiles are reconciled to the LIVE scoring scale so the trend dashboard and the live-scored
+  # calls tell one coherent story (strong ~90 · solid ~63 · ramping rising · veteran plateau-low
+  # · improving curve). overall ≈ 20 × weighted-mean(dims).
+  - id: R1
+    name: "Alex Rivera"
+    archetype: "Top performer — high & stable (benchmark)"
+    dim_base:   [4.6, 4.5, 4.4, 4.5, 4.4, 4.6, 4.5]   # ~90
+    weekly_delta: 0.00
+    noise: 0.18
+    products: [Sally, Platform, Olly]
+
+  - id: R2
+    name: "Priya Shah"
+    archetype: "Solid core — mid, steady"
+    dim_base:   [3.2, 3.0, 3.4, 3.0, 3.4, 3.1, 3.0]   # ~63
+    weekly_delta: 0.00
+    noise: 0.26
+    products: [Olly, Cally, Sally]
+
+  - id: R3
+    name: "Sam Okafor"
+    archetype: "New / ramping — mediocre, rising"
+    dim_base:   [2.0, 1.4, 2.2, 1.6, 2.2, 2.0, 1.5]   # ~36 → ~57 (weak discovery + buying-signal)
+    weekly_delta: 0.18
+    noise: 0.28
+    products: [Sally, Cally]
+
+  - id: R4
+    name: "Dana Whitmore"
+    archetype: "Struggling veteran — chronic monologue/leading, plateau"
+    dim_base:   [1.0, 0.5, 0.4, 0.8, 1.6, 0.9, 0.7]   # ~17, flat (the escalation case)
+    weekly_delta: 0.00
+    noise: 0.25
+    products: [Platform, Olly, Sally]
+
+  - id: R5
+    name: "Marco Bellini"
+    archetype: "Improving after coaching — clear upward curve"
+    dim_base:   [2.0, 1.5, 2.0, 1.6, 2.0, 1.7, 1.6]   # ~35 → ~64
+    weekly_delta: 0.24
+    noise: 0.26
+    products: [Cally, Sally, Olly]

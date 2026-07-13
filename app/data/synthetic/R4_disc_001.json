@@ -1,0 +1,105 @@
+{
+  "call_id": "R4_disc_001",
+  "rep_id": "R4",
+  "rep_name": "Dana Whitmore",
+  "product": "Platform",
+  "call_type": "discovery",
+  "date": "2026-04-05",
+  "quality_profile": "weak",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey there, thanks for hopping on\u2014let's just dive right in, I'm going to share my screen so you can see the Sensi.AI platform in action because honestly seeing it beats me just talking about it. So what we've got here is our dashboard that monitors caregiver visits in real time using ambient AI, no cameras, no wearables, just audio sensors that pick up on things like falls, medication reminders missed, wound care conversations, all that stuff. I know you probably have a million questions but let me just walk you through the core value prop first because I think once you see this it'll click. So on the left here you've got your agency overview, all your clients, all your caregivers, and every single visit gets a risk score."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah so basically what happens is our AI is listening in the background during every caregiver visit and it's trained to detect over 100 different risk indicators\u2014things like caregiver no-shows, verbal abuse, even detecting if the caregiver is on their phone the whole time instead of engaging with the client. We actually ran a survey last year across like 300 home care agencies and found that agencies using ambient monitoring reduced their liability incidents by 47%, which is honestly a huge number when you think about the lawsuits this industry deals with. I always tell owners like yourself, this pays for itself the first time it prevents one bad incident, one fall that could've been caught, one caregiver who wasn't actually doing their job. Does that resonate with what you're dealing with day to day?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I mean, sure, we deal with some of that."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right, exactly, everybody does, this industry's rough. So let me show you the ROI calculator we built because I think this is where it really gets interesting for an owner like you. Based on your agency size\u2014and I'm just going to plug in some rough numbers here, say you've got 40 caregivers and about 200 clients\u2014our model shows you'd save approximately $186,000 a year in reduced liability, reduced turnover because caregivers actually perform better when they know they're being monitored fairly, and reduced admin time spent on manual QA calls. I mean that number might even be conservative honestly, because we're not factoring in the reputational cost of a bad Yelp review or a lawsuit that makes local news. Would you agree that's a pretty conservative estimate given everything I just laid out?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I guess it could be, I'm not totally sure how you got that number."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah no it's all based on our internal modeling plus that survey data I mentioned, we can send over the whitepaper afterward. But look, let me keep going because there's more to show you here\u2014this is our compliance module, so every single visit gets auto-documented, which means your care coordinators aren't spending hours transcribing notes anymore. We've had agencies tell us this alone saves them like 15 hours a week per coordinator. And this piece right here, the sentiment analysis, this is huge, it actually flags when a client sounds depressed or agitated during a visit so you can proactively reach out to the family. Families love that, it's a huge differentiator when you're trying to win new clients against other agencies in your market."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That part does sound useful."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right? I knew that one would land. Okay so let me ask you this\u2014how many caregivers do you currently have on staff, just so I can make sure the numbers I'm showing you are in the right ballpark?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Around 35 or so."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect, that's basically right in line with what I modeled, so that $186,000 figure is honestly pretty close to spot on for you, if anything I'd say it's still conservative. And listen, I don't want to keep you too long, but I do want to mention we've got a promotion running right now where if you sign on before the end of the month we waive the setup fee and give you the first two months at half price, which for an agency your size is worth about eleven grand in savings. That's not something I can offer after this month though, so I just want to be upfront about that timing."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, timing's actually a little complicated for us right now."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Oh yeah? What's going on, anything I should know about?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Well, honestly, I'm actually in the process of selling the agency, so I'm not sure how much long-term platform investment makes sense for me right now."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Ah okay, well look, that actually might work in your favor because a platform like this can increase the valuation of the business, buyers love seeing tech-forward operations with clean compliance records, so it could actually help you in the sale process. I wouldn't let that stop you from at least getting started, especially with the pricing where it's at right now. Let me keep showing you a couple more screens because I think once the new owner sees this running they're going to want it anyway."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I guess that's true."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah, exactly, so here's the caregiver app, this is what your staff would actually use day to day, it's dead simple, they clock in, the AI starts listening passively, they don't have to do anything different than what they're already doing. And on the family side, we've got a portal where families can log in and see visit summaries, which again is a huge trust builder. I've seen agencies use this exact feature in their marketing materials to win new referrals from hospital discharge planners, which is honestly one of the most competitive referral channels out there. Does your agency get a lot of referrals from hospitals currently?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Some, yeah."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Right, well this would definitely help boost that. Okay, I know we're coming up on time here, so let me just wrap up by saying I really think this is a no-brainer given everything we've walked through\u2014the liability reduction, the time savings, the referral boost, and honestly the valuation bump if you do end up selling. I'd love to get you set up before the end of the month so you can lock in that pricing, what do you think, should we get the paperwork moving?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I think I need to talk to my business partner first before doing anything."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally understand, just keep in mind the promo pricing is only good through the end of the month, so don't wait too long on that conversation. Why don't I just go ahead and send over the contract and the ROI breakdown so you've got it in hand, and you can loop in your partner whenever works for you guys?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, you can send it over."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Awesome, I'll get that to you today, and yeah just let me know if anything comes up, I'm around whenever you want to chat further."
+    }
+  ],
+  "account": "Bright Path Home Health"
+}

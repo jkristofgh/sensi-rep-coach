@@ -1,0 +1,105 @@
+{
+  "call_id": "R2_demo_001",
+  "rep_id": "R2",
+  "rep_name": "Priya Shah",
+  "product": "Sally",
+  "call_type": "demo_close",
+  "date": "2026-04-30",
+  "quality_profile": "mixed",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey Maria, thanks for hopping on again \u2014 I know you've got a full house today. Last time we talked, you mentioned your biggest headache was caregiver no-shows and not knowing what's actually happening in the home until a family calls upset. I want to pick up right there and show you how Sally actually works day to day, then talk about what a next step could look like for your agency."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, that's still our pain point. We've got about 40 caregivers across 65 clients, and half my office staff's time goes into just chasing down \"did the visit happen, is everything okay\" instead of actual care coordination."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's exactly the use case Sally was built for. So at a high level, Sally is an AI voice agent that calls into the home during or shortly after each shift \u2014 it's not spying on caregivers, it's a structured check-in that asks about medication, mobility, mood, safety hazards, anything unusual. It transcribes and scores the call, and if something's off \u2014 a fall risk comment, a skipped med, a caregiver sounding stressed \u2014 it flags your care team in real time instead of you finding out three days later from a family complaint."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, but do families actually agree to have an AI calling into their home? That feels like it could freak people out."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally fair question, and it's usually the first one owners ask. In practice, agencies frame it as part of your quality assurance program during onboarding \u2014 \"we do periodic wellness check-ins to make sure everything's going well\" \u2014 and adoption has been high because it's positioned as care oversight, not surveillance. You keep full control over frequency and which clients are enrolled. Most agencies start with their highest-risk clients \u2014 recent hospital discharges, fall history \u2014 and expand from there once the office sees the value."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That makes sense. What does the office actually see on their end?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Good question \u2014 so your care coordinators get a dashboard with every visit scored, flagged issues sorted by urgency, and trend lines per client, like if someone's mood or appetite has been declining over two weeks. Instead of your staff proactively calling 65 families to check in, which nobody has time for, Sally's already done the first pass and tells you where to focus. Agencies using this have seen close to 35% more billable hours recovered, because staff aren't burning time on manual check-in calls and documentation \u2014 that time gets redirected into scheduling and sales activities that actually grow the book of business."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "35% more billable hours is a big number. Is that hours per caregiver or admin time?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's office/admin time reclaimed \u2014 the coordination and QA work that used to eat your team's day. It's not caregiver billable hours going up magically; it's your back office getting hours back to spend on growth instead of firefighting. Given you said your office staff is stretched thin doing manual check-ins, that's the lever I'd point you to specifically \u2014 this isn't just a safety tool, it's an efficiency tool for a team that's already maxed out."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, that part I like. What about the caregivers \u2014 are they going to feel micromanaged by this?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "We hear that concern too, and what we typically see is the opposite once it's rolled out right \u2014 caregivers actually like it because it's documenting their good work automatically, protecting them if there's ever a dispute about what happened during a shift. It's not a performance review call, it's a wellness check for the client. Agencies that message it that way to their staff first, before rollout, get much smoother adoption."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "And how long does something like this take to actually get running? I don't have bandwidth for a six-month implementation."
+    },
+    {
+      "speaker": "Rep",
+      "text": "It's not that heavy \u2014 typically a couple weeks to get your client list loaded, call cadences configured per client risk level, and your office team trained on the dashboard. We usually start with a pilot group, maybe 10 to 15 of your higher-need clients, so your team isn't overwhelmed and you can see real flags come through before deciding to expand agency-wide."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "What's this actually going to cost us, roughly, for something like 65 clients?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Pricing is per active client enrolled per month, and it flexes with call frequency \u2014 I don't want to throw a number at you without matching it to how many of your 65 you'd actually want in the pilot versus full rollout. What I'd rather do is put together a proposal based on maybe two tiers \u2014 a pilot at 15 clients and a full rollout at 65 \u2014 so you can see the real cost-per-client and weigh it against the admin hours you'd get back."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's fair. I do want to see actual numbers before I get my team excited about this."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally understand, and I'd rather you see real math than a sales pitch. One more thing worth mentioning \u2014 on the growth side, agencies using Sensi's tools in their sales process, particularly around faster family follow-up and demonstrating oversight during intake conversations, have seen conversion rates on inquiries roughly 2.6 times higher, because families feel more confident committing when they see there's real monitoring behind the care, not just promises."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's actually relevant \u2014 we lose a decent chunk of inquiries to competitors during the \"decision\" phase."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Exactly the moment where showing \"here's how we monitor every shift\" becomes a differentiator instead of just a bullet point on your website. So here's what I'd suggest \u2014 let me put together that two-tier proposal with real pricing based on your 65 clients, and pull together a one-pager on the onboarding messaging for both families and caregivers so your team feels ready to launch it right."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, I think that's a good next step. I'd want to loop in my ops manager too before we commit to anything."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Makes sense, happy to hop on a call with her directly if that's easier than relaying secondhand. I'll get the proposal built out this week and follow up with you next week to walk through it together, maybe with her on the line too."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good, send it over whenever it's ready and we'll find time."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Will do \u2014 I'll shoot you an email with the pilot vs. full rollout breakdown and we'll get something on the calendar to go through it live. Appreciate you giving me the time again, Maria, talk soon."
+    }
+  ],
+  "account": "Evergreen Home Care"
+}

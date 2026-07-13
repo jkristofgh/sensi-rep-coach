@@ -1,0 +1,115 @@
+{
+  "call_id": "R1_demo_002",
+  "rep_id": "R1",
+  "rep_name": "Alex Rivera",
+  "product": "Platform",
+  "call_type": "demo_close",
+  "date": "2026-04-05",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 91,
+  "penalty": 0,
+  "deterministic": {
+    "talk_ratio": 0.548,
+    "rep_questions": 3,
+    "open_questions": 1,
+    "next_step_booked": true,
+    "monologue_max_words": 74
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 5.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "Before I show you anything, can I ask what's actually driving you to look at monitoring tech right now?"
+      ],
+      "tip": "Continue leading every demo with 2-3 open discovery questions before any product talk, exactly as done here."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 3.5,
+      "weight": 0.1,
+      "signal": "hybrid",
+      "evidence": [
+        "how are you handling caregiver turnover right now, and does that connect at all to these documentation gaps?"
+      ],
+      "tip": "Push one layer deeper on decision process (who besides the clinical director signs off, and budget authority) to fully qualify."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 5,
+      "weight": 0.1,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 55% of the call"
+      ],
+      "tip": "Healthy talk/listen balance \u2014 keep it up."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 4.0,
+      "weight": 0.12,
+      "signal": "llm",
+      "evidence": [
+        "almost 40% of our new starts come through two hospital systems, and if I can walk into those meetings with something that differentiates us, that alone might justify the spend"
+      ],
+      "tip": "Explicitly confirm budget range and timeline for agency-wide rollout rather than letting the expansion comment pass unqualified."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 5.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "But I'm skeptical about a device listening in someone's home \u2014 how do families and caregivers actually react to that?"
+      ],
+      "tip": "After resolving the privacy objection, ask a quick confirming question to ensure the concern is fully closed before moving on."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 4.0,
+      "weight": 0.2,
+      "signal": "llm",
+      "evidence": [
+        "Agencies using this proactive alerting see meaningfully fewer hospitalizations and care escalations, which directly protects length of stay"
+      ],
+      "tip": "Cite the specific published 80%+ hospitalization reduction and 2x length-of-stay figures instead of vague 'meaningfully fewer' language."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 5.0,
+      "weight": 0.18,
+      "signal": "hybrid",
+      "evidence": [
+        "Thursday at 2pm works well on my end too. I'll send a calendar invite today along with a short case study"
+      ],
+      "tip": "Nail down the pilot start date and success metrics in the same call to tighten the commitment further."
+    }
+  ],
+  "flags": [],
+  "recommendations": [
+    {
+      "title": "Length of Stay & Hospitalization Reduction proof sheet (2x LOS, 80%+ hospitalization drop)",
+      "why": "Rep referenced these outcomes vaguely; a proof sheet with exact published figures would sharpen the pitch and improve proof_fidelity."
+    },
+    {
+      "title": "Discharge Planner / Referral Conversion case study (2.6x conversion)",
+      "why": "Prospect's biggest lever is hospital referrals; a dedicated micro-case-study reinforces this exact buying signal for the clinical director meeting."
+    },
+    {
+      "title": "Privacy & Caregiver Trust one-pager (no audio storage, adoption data)",
+      "why": "Objection handling on in-home listening was strong verbally; a leave-behind would help the rep close this objection with documentation."
+    }
+  ],
+  "summary": "Excellent discovery-first demo call: the rep uncovered real operational pain (turnover, referral loss, documentation gaps) before pitching, and tied product value directly to the buyer's own levers like length of stay and referral conversion. Proof points were mostly accurate but occasionally softened into vague language instead of citing exact published stats, and the close secured a firm, dated next step with the right stakeholder.",
+  "account": "Maplewood Care Partners"
+}

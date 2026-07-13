@@ -1,0 +1,105 @@
+{
+  "call_id": "R1_demo_002",
+  "rep_id": "R1",
+  "rep_name": "Alex Rivera",
+  "product": "Platform",
+  "call_type": "demo_close",
+  "date": "2026-04-05",
+  "quality_profile": "strong",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Thanks for making time today. Before I show you anything, can I ask what's actually driving you to look at monitoring tech right now?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure. We've had two incidents in the last quarter where a caregiver clocked in but the client's family later said care wasn't actually delivered the way it was documented. One of them threatened to pull the account entirely. So I need something that gives me visibility I don't currently have."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a costly problem on multiple levels. When that kind of thing happens, does it usually affect just that one client, or does it ripple into referrals and reviews too?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "It ripples. That family was referred by a hospital discharge planner we've worked with for years, and now she's hesitant to send us new cases. We lost probably three referrals last month because of that one incident, and those relationships take forever to rebuild."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Got it. One more before I get into the platform \u2014 how are you handling caregiver turnover right now, and does that connect at all to these documentation gaps?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Turnover is brutal, honestly, close to 65% annually, which is actually about average for our region but still painful. Part of it is we can't always tell if a caregiver is struggling in the home until something blows up. We find out about problems way too late, whether it's a caregiver not doing their job or a client's condition declining."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's the exact gap Sensi.AI is built to close. We use passive voice-based AI in the home, no cameras, no wearables, and it listens for care-relevant events, missed tasks, falls, medication conversations, mood changes, and turns that into structured documentation and real-time alerts to your office. Agencies using it see caregivers spend about 35% more time on actual billable care instead of paperwork, because the AI handles a big chunk of the documentation automatically."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's interesting, because our caregivers complain constantly about how much time they lose on notes at the end of a shift. But I'm skeptical about a device listening in someone's home \u2014 how do families and caregivers actually react to that?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Fair question, and it's usually the first objection we hear. It's positioned as a care-quality and safety tool, not surveillance, no audio is stored or played back, it's converted into structured insights only. Agencies typically see adoption go smoothly once caregivers realize it actually protects them, since it can back up what they did if a family ever disputes it."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That protection angle actually matters a lot to me, because I've had caregivers accused of things that weren't true, and I had no way to defend them. If this can create a factual record, that alone might justify it. How does it actually integrate with what we're already using for scheduling and EVV?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "It layers on top of your existing EVV and scheduling system rather than replacing it. So caregivers still clock in the way they always have, but Sensi is capturing what's happening during the visit and cross-referencing it against the care plan, so you get a compliance layer, not a rip-and-replace project."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, that removes a big barrier for me, because I do not have appetite for another system migration this year. What does onboarding actually look like on the caregiver side, do they need training, new hardware?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Minimal. It's a small in-home device we ship and set up, no app for the caregiver to manage, so there's almost no behavior change required of them. Most agencies get a location live within a week, and caregivers usually forget it's even there within a few visits."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's good, because anything that adds friction to their day gets resisted immediately, especially with turnover already this high. Can you tell me more about how it actually flags something before it becomes a crisis, like the incident I mentioned earlier?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Sure, so it's listening for patterns, missed medication reminders, unusual silence during a shift, signs of distress, and it pushes a real-time alert to your care coordinator, not after the visit, but often while it's still happening. Agencies using this proactive alerting see meaningfully fewer hospitalizations and care escalations, which directly protects length of stay, since families don't pull a client the moment something goes wrong, they see you catching it first."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Length of stay is honestly one of our biggest financial levers, losing a client early costs us way more than it seems on paper because of how much we spend acquiring them. If this tool can even shave a small percentage off early terminations, that's real money. What's the typical cost structure look like, is it per client, per caregiver?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "It's priced per client under monitoring, and most agencies see it pay for itself through the billable hours recovery alone, that 35% figure I mentioned, before you even factor in retention or averted incidents. On the sales side, agencies that lead with Sensi's monitoring as a differentiator in discharge planner conversations see about 2.6 times higher conversion on those referral pitches, because it's a concrete safety story hospitals want to hear."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That referral angle is huge for us, since almost 40% of our new starts come through two hospital systems, and if I can walk into those meetings with something that differentiates us, that alone might justify the spend. I think I want to see this in front of my clinical director before I commit to anything. What would a next step actually look like?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "I'd suggest a live pilot with 10 to 15 of your highest-risk or highest-value clients, that's usually enough to show real signal within 30 days without a big lift on your end. I can set up a working session with you and your clinical director this week to walk through the alert dashboard and map it against two or three of your actual recent cases, including the one you mentioned earlier."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That works. Let's do Thursday afternoon, my clinical director is usually free after 2pm, and I'd rather she hear the details directly instead of me relaying it secondhand."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Thursday at 2pm works well on my end too. I'll send a calendar invite today along with a short case study on the referral conversion piece, so she has context before the call, and we can use your actual incident scenario as the working example during the session."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Perfect, that's helpful, and honestly if this pilot performs anywhere close to what you're describing, I could see us expanding it agency-wide by next quarter. Send the invite and I'll make sure she blocks the time."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Will do, you'll have it in your inbox within the hour, and I'll loop in an onboarding specialist for Thursday too so we can talk timeline if the pilot moves forward. Thanks for being candid about where the gaps are today, this was a great conversation."
+    }
+  ],
+  "account": "Maplewood Care Partners"
+}

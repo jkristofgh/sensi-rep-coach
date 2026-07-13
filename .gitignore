@@ -1,0 +1,12 @@
+# secrets — never commit
+.env
+app/.env
+
+# python
+.venv/
+**/__pycache__/
+*.pyc
+
+# render + screenshot caches
+app/render/_cache/
+app/_screens/

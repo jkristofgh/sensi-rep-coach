@@ -1,0 +1,137 @@
+{
+  "call_id": "R4_disc_001",
+  "rep_id": "R4",
+  "rep_name": "Dana Whitmore",
+  "product": "Platform",
+  "call_type": "discovery",
+  "date": "2026-04-05",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 10,
+  "penalty": 15,
+  "deterministic": {
+    "talk_ratio": 0.917,
+    "rep_questions": 9,
+    "open_questions": 2,
+    "next_step_booked": false,
+    "monologue_max_words": 135
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 1.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "let's just dive right in, I'm going to share my screen so you can see the Sensi.AI platform in action"
+      ],
+      "tip": "Start with open discovery on the buyer's goals, caregiver turnover, and billable-hour economics before showing any product screens."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 2.0,
+      "weight": 0.22,
+      "signal": "hybrid",
+      "evidence": [
+        "how many caregivers do you currently have on staff, just so I can make sure the numbers I'm showing you are in the right ballpark?"
+      ],
+      "tip": "Ask open questions about business goals, current pain points, and decision process instead of only collecting a headcount to fit a canned ROI number."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 1,
+      "weight": 0.13,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 92% of the call"
+      ],
+      "tip": "Aim for more listening \u2014 open with questions and let the buyer talk."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 1.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "I'm actually in the process of selling the agency, so I'm not sure how much long-term platform investment makes sense for me right now."
+      ],
+      "tip": "When the prospect reveals a pending sale of the business, stop and qualify how that impacts timeline, decision-maker, and need rather than reframing it as a reason to buy now."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 1.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "that actually might work in your favor because a platform like this can increase the valuation of the business"
+      ],
+      "tip": "Acknowledge the objection directly and explore its real implications before pivoting back to a pitch angle."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 0.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "agencies using ambient monitoring reduced their liability incidents by 47%",
+        "our model shows you'd save approximately $186,000 a year"
+      ],
+      "tip": "Only cite Sensi's published proof points (e.g., 35% more billable hours, ~$500K average savings) and never invent surveys or dollar figures on the fly."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 2.0,
+      "weight": 0.15,
+      "signal": "hybrid",
+      "evidence": [
+        "Why don't I just go ahead and send over the contract and the ROI breakdown so you've got it in hand"
+      ],
+      "tip": "Instead of just sending a contract, propose a specific dated follow-up call once the partner has been looped in."
+    }
+  ],
+  "flags": [
+    {
+      "type": "unsupported_claim",
+      "evidence": "we ran a survey last year across like 300 home care agencies and found that agencies using ambient monitoring reduced their liability incidents by 47%"
+    },
+    {
+      "type": "unsupported_claim",
+      "evidence": "our model shows you'd save approximately $186,000 a year in reduced liability"
+    },
+    {
+      "type": "manufactured_urgency",
+      "evidence": "if you sign on before the end of the month we waive the setup fee and give you the first two months at half price"
+    },
+    {
+      "type": "false_agreement",
+      "evidence": "Would you agree that's a pretty conservative estimate given everything I just laid out?"
+    },
+    {
+      "type": "false_agreement",
+      "evidence": "Does that resonate with what you're dealing with day to day?"
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Sensi Discovery Question Guide for Agency Owners",
+      "why": "Rep skipped discovery entirely and needs a structured set of open questions on turnover, billable hours, and length of stay before pitching."
+    },
+    {
+      "title": "Published Proof Points One-Pager",
+      "why": "Rep fabricated a 47% liability stat and a $186K ROI figure; a reference sheet of approved numbers (35% billable hours, ~$500K average savings) would prevent invented claims."
+    },
+    {
+      "title": "Objection Handling Playbook: Exit/Sale Scenarios",
+      "why": "Prospect disclosed they are selling the agency, a major qualifying signal that was steamrolled instead of explored to understand true fit and timeline."
+    }
+  ],
+  "summary": "This call skipped discovery entirely, jumping straight into a product demo and fabricating statistics (47% liability reduction, $186K ROI) not found in Sensi's published proof. The rep also missed and mishandled a major buying/risk signal (the prospect is selling the agency) by spinning it into a pitch angle rather than qualifying it, and closed with generic urgency-driven pressure instead of a firm next step.",
+  "account": "Bright Path Home Health"
+}

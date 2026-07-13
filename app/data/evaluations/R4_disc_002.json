@@ -1,0 +1,133 @@
+{
+  "call_id": "R4_disc_002",
+  "rep_id": "R4",
+  "rep_name": "Dana Whitmore",
+  "product": "Olly",
+  "call_type": "discovery",
+  "date": "2026-04-08",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 5,
+  "penalty": 15,
+  "deterministic": {
+    "talk_ratio": 0.945,
+    "rep_questions": 6,
+    "open_questions": 1,
+    "next_step_booked": false,
+    "monologue_max_words": 129
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 0.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "let me just go ahead and share my screen so you can see exactly what Olly does"
+      ],
+      "tip": "Start every call with open discovery questions before touching the product demo or dashboard."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 1.5,
+      "weight": 0.22,
+      "signal": "hybrid",
+      "evidence": [
+        "So, tell me a little about your agency, just so I can tailor the rest of this \u2014 how many caregivers are you running right now, roughly?"
+      ],
+      "tip": "Ask about goals, decision process, timeline, and pain points before pitching, not as an afterthought 25 minutes in."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 1,
+      "weight": 0.13,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 94% of the call"
+      ],
+      "tip": "Aim for more listening \u2014 open with questions and let the buyer talk."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 1.0,
+      "weight": 0.15,
+      "signal": "llm",
+      "evidence": [
+        "Honestly, I'm actually in talks to sell the agency in the next few months, so I'm just seeing what's out there."
+      ],
+      "tip": "When the prospect reveals a pending sale, qualify it fully (timeline, decision-maker, buyer's tech interest) instead of glossing over it to keep pitching."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 1.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "Maybe, yeah."
+      ],
+      "tip": "Treat vague, low-energy responses like 'I guess so' and 'Maybe, yeah' as unresolved objections and dig deeper instead of steamrolling forward."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 0.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "we typically see about a $42,000 annual savings per agency",
+        "front desk call volume dropped by almost 30% within the first two months"
+      ],
+      "tip": "Only cite Sensi's published proof points (e.g., ~$500K average savings, 35% more billable hours) and never invent specific dollar figures or percentages not in the approved proof set."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 2.0,
+      "weight": 0.15,
+      "signal": "hybrid",
+      "evidence": [
+        "I can have pricing back to you by tomorrow."
+      ],
+      "tip": "Lock a specific dated meeting or call instead of an open-ended 'I'll follow up soon.'"
+    }
+  ],
+  "flags": [
+    {
+      "type": "unsupported_claim",
+      "evidence": "we typically see about a $42,000 annual savings per agency"
+    },
+    {
+      "type": "unsupported_claim",
+      "evidence": "I've had clients tell me their front desk call volume dropped by almost 30% within the first two months"
+    },
+    {
+      "type": "false_agreement",
+      "evidence": "would you agree that's a pretty conservative number given everything I just walked you through?"
+    },
+    {
+      "type": "manufactured_urgency",
+      "evidence": "I'd hate for you to miss that window, especially since I don't know when we'll run this offer again."
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Discovery-first call script for Olly",
+      "why": "Rep led with a 25-minute unprompted demo before asking a single discovery question, violating the discovery\u2192product\u2192value motion."
+    },
+    {
+      "title": "Published proof-point one-pager",
+      "why": "Rep fabricated a $42,000 savings figure and 30% call-volume drop, neither of which appear in Sensi's published proof."
+    },
+    {
+      "title": "Qualifying exit/timeline signals playbook",
+      "why": "Prospect disclosed they are selling the agency in months, a major buying/risk signal that was not properly qualified or used to shape the pitch."
+    }
+  ],
+  "summary": "This call inverted Sensi's motion entirely \u2014 a lengthy unsolicited demo with fabricated financial claims came before any discovery, and the one genuine buying signal (an impending agency sale) was brushed past rather than qualified. Objections were met with leading questions and manufactured urgency rather than genuine resolution, and the next step remains vague and undated.",
+  "account": "Harbor Light Home Care"
+}

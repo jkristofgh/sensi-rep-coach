@@ -1,0 +1,133 @@
+{
+  "call_id": "R1_disc_001",
+  "rep_id": "R1",
+  "rep_name": "Alex Rivera",
+  "product": "Platform",
+  "call_type": "discovery",
+  "date": "2026-04-08",
+  "quality_profile": "strong",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Thanks for making time today. Before I say anything about us, can I ask what's driving you to even take this call right now?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, happy to explain. We've had two near-miss situations in the last quarter where family members called us worried about their parent, and we honestly had no idea anything was wrong until they escalated. Our caregivers file notes, but half the time they're vague or just say \"had a good day.\" I'm losing sleep over the idea that something serious is happening in these homes and we're finding out last."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a scary spot to be in. How many clients are you managing daily, and how are you currently getting visibility into what's happening in-home?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "We're at about 140 active clients across three offices. Visibility is basically caregiver notes in our EVV system, plus whatever family members choose to tell us, which is inconsistent at best. We do care manager check-in calls, but with our ratio of clients to care managers, those calls happen maybe every couple weeks, not daily."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Got it. And when something does go wrong \u2014 a fall, a UTI, a med issue \u2014 how does that usually surface? Caregiver report, family call, or after the fact?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly, more often than I'd like, it's after the fact. A family calls the office frustrated, or worse, there's a hospitalization and we're piecing together what happened from a chart nobody flagged in real time. We've had two clients discharge from us this year specifically because families felt like we weren't catching things early enough."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's exactly the gap we built Sensi.AI to close. Quick context \u2014 we're an AI voice platform that listens in on care visits, with consent, and flags things like falls, mood changes, medication concerns, or care plan deviations in real time, so your care managers get alerted before it becomes a family phone call. Does that kind of early-warning system sound like it would've caught either of those two discharges?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly, yes, probably both. In one case, the caregiver had actually mentioned something in her notes about the client seeming \"off\" and refusing food for two days, but nobody read it until the family called us upset. If we'd gotten an alert the day it happened instead of finding it in a note a week later, we could've gotten ahead of it."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's the exact pattern our clients tell us Sensi catches. Let me ask about the business side too \u2014 how's caregiver turnover been for you this year, and does documentation quality play into that at all?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Turnover's rough, we're probably around 65% annually, which I know isn't unusual for the industry but it still hurts. Part of it is our caregivers feel like they're just filling out forms nobody looks at, so there's no sense that their work matters. And honestly some of our newer caregivers just don't know what \"good\" documentation looks like, so care managers are constantly chasing them for details."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a really common thread we see \u2014 agencies using Sensi actually report turnover improving because caregivers feel supported rather than surveilled, since the AI is generating the summary for them, not grading them. On the flip side, what does a typical care manager's day look like \u2014 are they doing a lot of manual chart review?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Way too much. Each care manager has roughly 45 clients, and they're supposed to review notes daily but realistically it's whatever they can get to. A lot of their time goes into just reading through notes trying to figure out if anything's concerning, then following up with caregivers for clarification. It eats hours that could go to actually managing care or, frankly, business development."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a big one \u2014 most of our agency clients see care managers reclaim 30-40% of that review time because Sensi auto-flags the exceptions instead of them reading everything cover to cover. If your team got even half that time back, what would you want them doing instead?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly, I'd want them spending more time on client and family relationships, proactive check-ins, catching issues before they escalate, versus just being detectives after the fact. And selfishly, if they had bandwidth, I'd want them supporting intake and helping close new referrals faster, since right now that falls entirely on me and one admin."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a great segue \u2014 how do referrals typically come in, and how fast are you able to turn a referral into a start of care right now?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Referrals come mostly from hospital discharge planners and a couple of home health partners. Turnaround is usually 2 to 3 days, sometimes longer if we're short-staffed on caregivers for that specific case. I know we've lost referrals to competitors simply because we couldn't staff fast enough or the referral source got impatient waiting on us."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's meaningful, because agencies on our platform have seen up to 2.6 times higher conversion on referrals, largely because the risk monitoring gives referral partners \u2014 especially hospitals and health systems \u2014 confidence to send you higher-acuity cases they'd otherwise keep in-house or send to a bigger competitor. Does referral acuity factor into what you're able to accept today?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "It does, actually. We've had discharge planners hesitant to refer more medically complex clients to us because they're not confident we can monitor them closely enough at home. If we could show them real-time monitoring and alerting, I think that changes the conversation, especially with the hospital system we're trying to build a relationship with."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a strong use case. On the financial side \u2014 when you think about billable hours, are there cases where visits get cut short, or shifts don't get billed properly because documentation is missing or incomplete?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yes, more than I'd like to admit. We've had situations where a caregiver's visit notes were so thin that we couldn't confidently bill for the full time, or families disputed hours because there was no clear record of what happened during the visit. It's not fraud, it's just sloppy documentation, but it costs us real revenue every month."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That tracks with what we see broadly \u2014 agencies using Sensi typically capture 35% more billable hours, just from accurate, automated time-and-task documentation that holds up when there's a dispute. If that were true for your 140 clients, even a conservative estimate, what would that mean for your bottom line?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly, that could be tens of thousands of dollars a month we're currently leaving on the table, plus it would save us the awkward conversations with families disputing invoices. That alone would probably justify the investment before we even talk about the care quality piece."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's fair, and I don't want to overstate it before you've seen it in your own environment. Given everything you've shared \u2014 the two discharges, the turnover pressure, the referral acuity issue, and the billing gaps \u2014 it sounds like there's real urgency here. Would it make sense to get your ops director and one of your care managers into a working session where we run a live pilot scenario with a couple of your actual client profiles?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yes, I think that's exactly what we need. My ops director, Denise, would want to be in that room, and honestly I'd want our lead care manager there too, since she's the one who'd be living in this system day to day."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect. Let's lock a date now while we're both looking at calendars \u2014 how does next Thursday at 2pm your time work for a 45-minute working session with Denise and your lead care manager?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Thursday at 2pm works for me, let me just double check with Denise, but I don't anticipate a conflict. I'll get you her email so you can send the invite directly."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect, send that over and I'll get the invite out today with a short agenda \u2014 we'll walk through a live monitoring scenario, show you exactly how the billable hours capture works, and map out what a referral conversation with your hospital partner could look like using this. Anything specific you want added to make sure it's useful for Denise?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Just make sure we spend real time on the alerting workflow, how fast a care manager actually gets notified and what they're supposed to do with it, because that's the piece that'll make or break this for us operationally."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Noted, I'll build the agenda around that specifically and send over two case studies beforehand \u2014 one on the turnover impact, one on the referral conversion piece \u2014 so Denise has context walking in. Looking forward to Thursday."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good, looking forward to it too. Thanks for actually digging into our specific problems instead of just pitching me from the start."
+    }
+  ],
+  "account": "Comfort Keepers of Elmwood"
+}

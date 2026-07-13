@@ -1,0 +1,2 @@
+markdown>=3.5
+# playwright is reused from automation/media_tools/.venv (already installed)

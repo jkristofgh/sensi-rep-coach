@@ -1,0 +1,105 @@
+{
+  "call_id": "R5_demo_002",
+  "rep_id": "R5",
+  "rep_name": "Marco Bellini",
+  "product": "Cally",
+  "call_type": "demo_close",
+  "date": "2026-04-23",
+  "quality_profile": "mixed",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hey Denise, thanks for hopping on again \u2014 I know you're slammed this week with the new hires. Last time we talked, you mentioned your biggest headache was catching things during visits before they turn into a hospital call or a family complaint. I want to just do a quick screen-share of Cally and then talk through what it'd actually look like at your agency. Sound good?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, that works. I've got about 25 minutes before my next thing, so let's move."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect, I'll keep us on track. Before I share my screen, remind me \u2014 how many caregivers do you have active right now, and roughly how many of your clients are private pay versus on some kind of managed care contract?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "We're at about 60 caregivers, maybe 140 clients. Split's roughly 70% private pay, 30% through a couple of MCO contracts. The MCO stuff is where we get dinged on documentation \u2014 if a visit note isn't detailed enough, we don't get paid, plain and simple."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's actually a really common pain point we hear, and it's a big part of why agencies bring us in. Cally calls the client after the visit \u2014 not the caregiver, the actual client or their family member \u2014 and has a short, natural conversation about how the visit went. It picks up on things like missed tasks, mood changes, safety concerns, medication issues, stuff a caregiver might not think to write down or might gloss over. Then it turns that into a structured note that maps to your documentation requirements. For agencies with MCO contracts specifically, that's huge because it closes the gap between what actually happened and what gets billed."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, but caregivers already do progress notes. Are you saying the notes aren't good enough, or that clients will tell an AI things they wouldn't tell us?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Both, honestly, and that's not a knock on your caregivers \u2014 it's just human nature. A caregiver writing a note after an eight-hour shift is going to write the minimum to get by. But a client on the phone with a friendly voice asking \"how'd today go, did anything feel off\" will mention the fall risk near the stairs, or that mom seemed more confused than usual. We've seen agencies using this pick up 35% more billable hours just from documentation that actually reflects the care being delivered and catches missed tasks or extra time on-site that wasn't logged. That's real revenue you're probably leaving on the table right now with your MCO business."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "35% more billable hours is a big number. I'd want to see where that came from before I put that in front of my ownership partner. What's actually driving that \u2014 is it catching more hours worked, or is it more like upselling additional services?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "Fair, and I'd rather show you than just say it \u2014 that's a stat from Sensi's customer base broadly, not something I'm promising you specifically will hit. It's mostly the first thing you said: caregivers under-document actual time and tasks, and the calls surface that. It's not about upselling, it's about capturing what already happened. Let me pull up the actual call flow so you can hear what a client interaction sounds like, and then you can judge for yourself whether your clients would engage with it."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, go ahead."
+    },
+    {
+      "speaker": "Rep",
+      "text": "[shares screen] So this is a real sample call \u2014 client's name is blanked out, obviously. You'll hear the AI ask open-ended questions, not yes/no stuff, and then it flags anything concerning for a human to review same day. Notice it doesn't sound robotic \u2014 that matters because if it sounds like a robocall, your clients hang up."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, that's better than I expected. My worry is my caregivers, honestly \u2014 some of them are older, less tech-savvy, and I can already hear them saying \"is this replacing me\" or \"is this spying on me.\""
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's the objection I'd expect from your team, and it's the right one to ask. The honest answer is it's not caregiver-facing at all \u2014 the call goes to the client or family, not the caregiver, so there's nothing for a caregiver to adopt or fight against. If anything, it protects them, because if there's ever a dispute about what happened during a visit, there's a documented, timestamped record from the client's own words. A couple of our agency partners actually used that positioning with their staff and it landed fine once caregivers understood it wasn't a monitoring tool aimed at them."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, that helps. What about clients with dementia or cognitive decline \u2014 a decent chunk of my caseload isn't going to give you a coherent phone conversation."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Good catch, and no, it's not going to work well for every client \u2014 for advanced cognitive decline, you'd lean on the family member or a responsible party contact instead, same as you probably do now for care updates. It's not a hundred percent of your caseload, but even at 60-70% coverage across your private pay and MCO clients, you're closing a documentation gap that's currently zero."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Makes sense. What's this actually cost, and how's it priced \u2014 per client, per caregiver, flat fee?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "It's typically priced per active client on the platform, and honestly I don't want to throw a number out without understanding your call volume and contract mix a bit more first \u2014 I'd rather get you an accurate quote than a ballpark that's wrong either direction. What I can tell you is agencies in your size range typically see this pay for itself pretty quickly once you factor in the billable hours piece and reduced risk on the MCO documentation side."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "I get that, but I do need something concrete before I bring this to my partner. She's going to ask \"what's the ROI\" in the first thirty seconds."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally fair, and that's on me to have ready. Let me pull together a real proposal using your actual caseload numbers \u2014 the 140 clients, the 70/30 split \u2014 and I'll show you what the billable hours upside could realistically look like for your agency specifically, not just the general stat. Give me a few days to build that out properly."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, that's more useful than another generic pitch. When would that be ready?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "I'll put it together and follow up next week \u2014 I want to loop in one of our onboarding folks too so you can ask them directly about the caregiver adoption piece, since that's clearly top of mind for you."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Alright, next week works. Just send me something concrete this time, not just the case study numbers."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Understood, I'll make sure it's specific to your numbers. Appreciate you making time today, Denise \u2014 talk soon."
+    }
+  ],
+  "account": "Harbor Light Home Care"
+}

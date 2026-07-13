@@ -1,0 +1,118 @@
+{
+  "call_id": "R1_disc_new",
+  "rep_id": "R1",
+  "rep_name": "Alex Rivera",
+  "product": "Platform",
+  "account": "Sunrise Senior Services",
+  "call_type": "discovery",
+  "date": "2026-05-13",
+  "quality_profile": "strong",
+  "kind": "synthetic",
+  "scored": false,
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hi, thanks for making time today. Before I get into anything about us, can I ask what's prompting you to even take this call right now?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, happy to share. We've had a rough few months with caregiver call-offs and family complaints about visit consistency, and honestly I'm tired of playing detective every time a client's daughter calls asking why the visit was twelve minutes short."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a big one. How many caregivers and clients are you running right now, roughly?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "We're at about 85 caregivers and 140 active clients across two counties. We grew fast the last two years, and our systems didn't really grow with us."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Got it. And when a shortfall happens \u2014 like that twelve-minute example \u2014 how do you even find out? Family complaint, or do you catch it internally first?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Almost always the family catches it before we do. Our EVV system just tells us clock-in and clock-out times, it doesn't tell us what actually happened in the home. So we're reactive, not proactive, and that's damaging trust with our referral sources."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That reactive position is expensive in a few ways. Can I ask \u2014 what's your caregiver turnover looking like this year, and do you have a sense of average length of stay per client?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Turnover's brutal, honestly north of 65% annually, which is close to industry norm but still painful. Average length of stay is maybe 14 months, and I know if we lost fewer clients to \"we don't feel comfortable anymore\" moments, that number would climb."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That connects directly to what I wanted to walk through today. Sensi.AI puts a passive AI listening layer into the home \u2014 through a device already there, no wearables, no cameras \u2014 and it flags things like falls, unusual silence, medication conversations, agitation, wandering risk, that kind of signal, in real time. Agencies using it see caregivers get about 35% more billable hours because supervisors stop spending time on manual spot-checks and can actually staff and sell more hours instead. Does that kind of visibility problem resonate with what you're describing?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "It does, actually \u2014 a lot of our office coordinators' time goes to babysitting compliance instead of business development. If we could reclaim even half of that, we could be pushing more hours into the field instead of admin overhead."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Makes sense. When you think about length of stay \u2014 the families who cancel service \u2014 what's usually the actual trigger, in your experience?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Usually it's a trust breakdown. A fall nobody reported until the next shift, or the caregiver on their phone the whole visit, or medication not given on time and nobody flags it. Families don't leave because care is bad exactly \u2014 they leave because they stop believing they'd hear about it if something went wrong."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's exactly the gap this closes. Every visit gets an automated summary the family and office can see \u2014 engagement level, safety flags, wellness trends over time \u2014 so instead of families finding out after the fact, your coordinators are proactively calling to say \"hey, we noticed mom seemed more withdrawn this week, let's check in.\" Agencies using that proactive-outreach motion are converting more of their assessments into long-term clients too \u2014 we're seeing about 2.6x higher conversion when families see that kind of transparency during the sales process itself."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's interesting because our intake conversion has actually been a struggle \u2014 families shop around and a lot of them just don't come back after the initial assessment. If we had something concrete to show them about how care is monitored, that could be a real differentiator in a crowded market."
+    },
+    {
+      "speaker": "Rep",
+      "text": "How many assessments are you running a month right now, roughly, and what's your close rate?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "We're doing maybe 30 assessments a month and closing around 40%. If that number moved even a little with something like this, it'd be a meaningful revenue swing for us, not just a nice-to-have."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That tracks with what we typically see. On the turnover side \u2014 since caregivers are also flagged as being on their phones or not engaged \u2014 how do you think your team would react to that kind of oversight? Sometimes that's the part owners worry about."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Good caregivers usually don't mind it once they understand it's protecting them too \u2014 if there's a fall and it's not their fault, the record actually backs them up instead of it becoming a he-said-she-said with the family. It's really the mediocre performers who'll push back, and honestly I don't mind losing a few of those if it means we retain the good ones and protect ourselves legally."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's a healthy way to think about it \u2014 it tends to work as a retention tool for your best people, not a punishment system. Given everything you've described \u2014 the reactive complaints, the 65% turnover, the assessment conversion gap \u2014 where does solving this sit on your priority list for this quarter?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly it's near the top. We're about to head into our slow season for new referrals, so if there's a way to shore up retention and improve our close rate before Q1 hiring season hits, I'd rather move on it now than wait."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's good timing on our end too. What I'd suggest next is a working session with your ops lead and whoever runs your intake process \u2014 I'll bring our clinical outcomes data and we can map it against your specific numbers, turnover, assessment volume, average length of stay, and build a real ROI picture instead of a generic one. Would Thursday at 2pm work, or does early next week work better for your team's schedules?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Thursday at 2 should work \u2014 let me just loop in my operations director since she owns the day-to-day and would need to be in that conversation anyway."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect, send me her email after this and I'll get a calendar invite out today with a short agenda so nobody's walking in cold. One more thing before we wrap \u2014 is there a specific incident or complaint from the last few months that, if we solved nothing else, would make this an easy yes for you?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, actually \u2014 we had a fall two months ago that wasn't reported for almost four hours, and the family found out from the hospital before we even called them. That one cost us the client and it still keeps me up at night. If this platform would've caught that in real time, that alone justifies the conversation."
+    },
+    {
+      "speaker": "Rep",
+      "text": "That's precisely the scenario this is built to prevent, and I'll bring a case study Thursday from an agency that had almost that exact situation so you can see how it played out differently on their end. I'll get that invite over now \u2014 talk soon."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good, looking forward to it."
+    }
+  ]
+}

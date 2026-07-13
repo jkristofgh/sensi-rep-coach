@@ -1,0 +1,96 @@
+# rubric.yaml — the Sensi-tuned scoring rubric. THIS FILE IS THE TEMPLATABLE SEAM (Phase 3):
+# a new team = a new rubric, not new code. Dimensions, weights, and grounding are all config.
+#
+# Dimensions are drawn straight from the Phase-1 diagnosis (the real call's failure modes) and
+# Sensi's OWN prescribed motion + published proof wall — so the score rewards selling the Sensi way.
+
+version: "1.0.0"
+name: "Sensi Sales — Seller Enablement Rubric"
+evaluator_role: "seller-enablement"   # sets the LLM evaluator persona (config, not code)
+scale: {min: 0, max: 5}          # per-dimension; overall is rescaled to 0–100
+signal_key:                       # how each dimension is scored
+  deterministic: "computed in code from the transcript"
+  llm: "Claude judgment with verbatim evidence quotes"
+  hybrid: "blend of a computed signal and LLM judgment"
+
+# --- grounding the LLM pass (injected into the scoring prompt) -----------------------------------
+# Sensi's prescribed call motion — the benchmark for motion_adherence.
+motion:
+  agenda: ["Intro",
+           "Getting to know you & your business (discovery)",
+           "Product",
+           "Customer story & value",
+           "Q&A / next step"]
+  principle: "Discovery BEFORE product. Value tied to the buyer's own levers, not a generic pitch."
+
+# Sensi's published proof — the benchmark for proof_fidelity. Claims should match THESE, not
+# invented numbers. (From the GTM deck / customer materials; used to catch fabricated figures.)
+proof_wall:
+  - "35% more billable hours"
+  - "2.6x inquiry→assessment conversion"
+  - "23% readmission drop"
+  - "300% retention"
+  - "80%+ hospitalization reduction"
+  - "~$500K average savings (no total-$ ROI figure is published)"
+  - "2x length of stay"
+  - "Sally = 'your entire inside sales force in one agent'"
+  - "Diana story: 0%→100% satisfaction, 14 months with no falls"
+persona:
+  buyer: "Home-care agency owner / operator"
+  pain: "Operational & financial fragility — caregiver turnover, billable-hour economics, length of stay."
+
+# --- dimensions ---------------------------------------------------------------------------------
+dimensions:
+  - key: motion_adherence
+    label: "Motion adherence"
+    description: "Did the rep follow Sensi's motion (discovery → product → value) for this call type?"
+    signal: llm
+    weights: {discovery: 0.15, demo_close: 0.15, follow_up: 0.10}
+
+  - key: discovery_quality
+    label: "Discovery quality"
+    description: "Fresh, open discovery vs. assumptions or leading questions. Did the rep learn the buyer's goals, criteria, timeline, decision process?"
+    signal: hybrid            # LLM judgment blended with the open-question count
+    weights: {discovery: 0.22, demo_close: 0.10, follow_up: 0.12}
+
+  - key: talk_listen_balance
+    label: "Talk / listen balance"
+    description: "Rep vs. prospect airtime. Monologue (rep >75%) is penalized; dialogue is rewarded."
+    signal: deterministic     # talk_ratio from word counts
+    weights: {discovery: 0.13, demo_close: 0.10, follow_up: 0.10}
+
+  - key: buying_signal
+    label: "Buying-signal detection & handling"
+    description: "Did the rep catch AND qualify buying/risk signals (budget, timeline, exit, competing options)?"
+    signal: llm
+    weights: {discovery: 0.15, demo_close: 0.12, follow_up: 0.16}
+
+  - key: objection_handling
+    label: "Objection handling"
+    description: "Surfaced, acknowledged, and resolved objections rather than steamrolling them."
+    signal: llm
+    weights: {discovery: 0.10, demo_close: 0.15, follow_up: 0.16}
+
+  - key: proof_fidelity
+    label: "Proof-point fidelity"
+    description: "Claims match Sensi's PUBLISHED proof. Invented numbers or fabricated provenance score low."
+    signal: llm
+    weights: {discovery: 0.10, demo_close: 0.20, follow_up: 0.10}
+
+  - key: next_step
+    label: "Next-step specificity"
+    description: "A firm, dated next commitment (booked meeting) vs. a diffuse 'I'll check in'."
+    signal: hybrid            # LLM judgment blended with next_step_booked
+    weights: {discovery: 0.15, demo_close: 0.18, follow_up: 0.26}
+
+# --- flags (negative; applied as a capped penalty, not a weighted dimension) ---------------------
+flags:
+  penalty_per_flag: 6         # points off the 0–100 overall
+  penalty_cap: 15
+  types:
+    - key: manufactured_urgency
+      description: "False deadline / pressure not grounded in the buyer's reality."
+    - key: false_agreement
+      description: "Leading question manufacturing agreement ('would you agree…?' → forced yes)."
+    - key: unsupported_claim
+      description: "A product/ROI claim with no basis in Sensi's proof wall."

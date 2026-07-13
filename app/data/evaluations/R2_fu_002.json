@@ -1,0 +1,103 @@
+{
+  "call_id": "R2_fu_002",
+  "rep_id": "R2",
+  "rep_name": "Priya Shah",
+  "product": "Olly",
+  "call_type": "follow_up",
+  "date": "2026-05-01",
+  "rubric_version": "1.0.0",
+  "model": "claude-sonnet-5",
+  "overall": 66,
+  "penalty": 0,
+  "deterministic": {
+    "talk_ratio": 0.763,
+    "rep_questions": 0,
+    "open_questions": 0,
+    "next_step_booked": true,
+    "monologue_max_words": 105
+  },
+  "dimensions": [
+    {
+      "key": "motion_adherence",
+      "label": "Motion adherence",
+      "score": 3.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "I wanted to pick up there and show you where Olly fits into that specific problem"
+      ],
+      "tip": "Even in a follow-up, ask a fresh discovery question before pivoting into product benefits to confirm nothing has changed."
+    },
+    {
+      "key": "discovery_quality",
+      "label": "Discovery quality",
+      "score": 1.5,
+      "weight": 0.12,
+      "signal": "hybrid",
+      "evidence": [
+        "We've got about 40 caregivers in the field and half of them are great about notes, half of them just write \"client fine\" and move on."
+      ],
+      "tip": "Dig deeper into timeline, budget, and decision process (e.g., 'what's driving urgency now, who else needs to sign off, what's your timeframe') instead of moving straight to product pitch."
+    },
+    {
+      "key": "talk_listen_balance",
+      "label": "Talk / listen balance",
+      "score": 3,
+      "weight": 0.1,
+      "signal": "deterministic",
+      "evidence": [
+        "rep talk 76% of the call"
+      ],
+      "tip": "Aim for more listening \u2014 open with questions and let the buyer talk."
+    },
+    {
+      "key": "buying_signal",
+      "label": "Buying-signal detection & handling",
+      "score": 2.0,
+      "weight": 0.16,
+      "signal": "llm",
+      "evidence": [
+        "I'd want my ops manager in on that conversation too, she's the one who'd actually be living in this day to day."
+      ],
+      "tip": "Qualify this signal by asking about budget authority, timeline for decision, and whether other vendors are being evaluated."
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "score": 4.0,
+      "weight": 0.16,
+      "signal": "llm",
+      "evidence": [
+        "We tried a different monitoring tool two years ago and it just became noise... I don't want to add something that creates more work."
+      ],
+      "tip": "After addressing the noise objection, ask the prospect to reflect back whether that resolves their concern before moving to close."
+    },
+    {
+      "key": "proof_fidelity",
+      "label": "Proof-point fidelity",
+      "score": 5.0,
+      "weight": 0.1,
+      "signal": "llm",
+      "evidence": [
+        "Agencies using it have seen about 35% more billable hours",
+        "conversion on inquiries roughly 2.6x higher"
+      ],
+      "tip": "Continue citing only published figures like this; consider adding source context (e.g., 'in our published case studies') for extra credibility."
+    },
+    {
+      "key": "next_step",
+      "label": "Next-step specificity",
+      "score": 4.0,
+      "weight": 0.26,
+      "signal": "hybrid",
+      "evidence": [
+        "I'll follow up with you early next week to find a time that works for both of you."
+      ],
+      "tip": "Lock a specific date/time on the call itself rather than deferring scheduling to a follow-up email."
+    }
+  ],
+  "flags": [],
+  "recommendations": [],
+  "summary": "",
+  "account": "Evergreen Home Care"
+}

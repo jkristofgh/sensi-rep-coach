@@ -1,0 +1,8 @@
+# Pinned to a stable, verified combo. Streamlit 1.59 + pandas 3.0 crash the server (native
+# segfault during Arrow serialization → "Connection error"), so these are intentionally pinned.
+streamlit==1.39.0
+pandas==2.2.3
+pyarrow==17.0.0
+altair==5.4.1
+anthropic>=0.40
+pyyaml>=6.0

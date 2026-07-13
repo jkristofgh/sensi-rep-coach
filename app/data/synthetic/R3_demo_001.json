@@ -1,0 +1,113 @@
+{
+  "call_id": "R3_demo_001",
+  "rep_id": "R3",
+  "rep_name": "Sam Okafor",
+  "product": "Cally",
+  "call_type": "demo_close",
+  "date": "2026-05-08",
+  "quality_profile": "developing",
+  "kind": "synthetic",
+  "turns": [
+    {
+      "speaker": "Rep",
+      "text": "Hi, thanks for hopping on today. This is Jordan from Sensi.AI \u2014 I know you're busy running the agency, so I'll try to keep this efficient. Before I dive in, can I ask how many caregivers you've got out in the field right now?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, we're at about 60 caregivers, covering maybe 140 clients across two counties."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Got it, that's a solid size. So what we do with Cally, our AI voice platform, is we place automated check-in calls to your clients or their caregivers after each shift, and it picks up on things like mood changes, missed medications, fall risk language \u2014 stuff that might otherwise slip through the cracks until a family member calls in upset. It basically gives you an early warning system."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay, and how does that actually work \u2014 is it replacing the caregiver's own notes, or on top of it?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "It's on top of it, so nothing changes for your caregivers day to day. Cally just calls after the visit, has a short natural conversation, and then flags anything concerning to your office staff through a dashboard. Honestly the big thing agencies love is the early detection piece \u2014 we've had agencies catch a UTI starting to develop just from the voice sentiment analysis before it turned into a hospital visit. That's kind of our headline stat, it's been huge for agencies trying to reduce readmissions."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "That's interesting. We actually just had a family pull their mom out of our care last month because nobody caught that she'd stopped eating for like four days."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah, that's exactly the kind of gap we're trying to close. So with Cally in place, those calls would happen daily or every few days depending on how you set the cadence, and any red flags \u2014 mood, appetite, anything unusual \u2014 get surfaced right away instead of waiting for the next in-person visit."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Makes sense. What's the actual setup like on our end \u2014 do we need new hardware, training for staff?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "No hardware at all, it's fully phone-based, so no apps for your caregivers or clients to download. Onboarding is mostly just us loading in your client roster and setting call preferences. Most agencies are live within a couple weeks. And again, the readmission piece is really the anchor value here \u2014 agencies using Sensi have reported meaningful drops in hospital readmissions just from catching these early signals through the voice check-ins."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Yeah, you mentioned that a couple times. I get it, it's a strong stat."
+    },
+    {
+      "speaker": "Rep",
+      "text": "It really is, it's probably our best proof point across the client base. But I know every agency's different \u2014 what's driving you to look at something like this right now?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Honestly it's a mix \u2014 some family complaints, and we've had some caregiver turnover so oversight has been thinner than usual."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Totally understand, staffing churn makes consistent oversight tough. That's actually one of the reasons agencies lean on Cally, because it doesn't depend on which caregiver is covering a shift \u2014 the check-in call happens no matter who's on. So even during turnover periods you've still got that layer of visibility."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Right, that would help with the family complaints piece too, probably, since they'd see we're staying on top of things."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Yeah, for sure. So typically what we'd do next is get you set up with a short pilot on maybe 20 or 30 clients, just so your team can see the flags coming through and how the dashboard works before rolling it out agency-wide."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Okay. What's pricing look like for something like that?"
+    },
+    {
+      "speaker": "Rep",
+      "text": "It scales with number of clients monitored, so I'd want to put together a proposal based on your actual client count rather than throw out a number that doesn't fit. I can pull that together along with a one-pager on the readmission data I mentioned."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sure, that'd be helpful to see."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Great, I'll get that packet together \u2014 pricing breakdown, the case study on readmissions, and a quick overview of the pilot process."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good, I'll take a look when you send it."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Perfect, I'll send that over in the next day or two. Anything specific you want me to make sure is included?"
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Maybe something on how it handles families who don't speak English as a first language \u2014 we've got a decent number of those clients."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Good call, I'll see what I can find on that and include it. I'll follow up once it's in your inbox."
+    },
+    {
+      "speaker": "Prospect",
+      "text": "Sounds good, talk soon."
+    },
+    {
+      "speaker": "Rep",
+      "text": "Thanks for your time today, I'll be in touch."
+    }
+  ],
+  "account": "Willow Creek Senior Care"
+}

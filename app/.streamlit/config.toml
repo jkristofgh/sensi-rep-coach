@@ -1,0 +1,20 @@
+# Rep Coach — Streamlit config.
+# fileWatcherType="none": the app WRITES data/routing_log.json as part of the demo; without this,
+# Streamlit's watcher would hot-reload on every write and drop the connection mid-interaction.
+[server]
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+# Hide the built-in "Deploy" button + hamburger (Streamlit Community Cloud shortcut) — not wanted
+# for an NDA demo, and it reclaims the top-right space.
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "dark"
+primaryColor = "#4c9be8"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#171c24"
+textColor = "#e6e9ec"

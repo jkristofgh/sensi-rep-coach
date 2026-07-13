@@ -1,0 +1,59 @@
+/* slides.css — landscape 16:9 style for <phase>_summary.pdf and the capstone deck */
+@page { size: 13.333in 7.5in; margin: 0; }
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #1a2b36; margin: 0;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.slide {
+  width: 13.333in; height: 7.46in; padding: 0.6in 0.85in 0.62in;
+  page-break-after: always; overflow: hidden; position: relative;
+  display: flex; flex-direction: column; background: #ffffff;
+}
+.slide:last-of-type { page-break-after: auto; }
+
+.slide h1 { color: #0a3d62; font-size: 33pt; margin: 0 0 0.15em; line-height: 1.08; }
+.slide h2 { color: #0a3d62; font-size: 23pt; margin: 0 0 0.28em; line-height: 1.1; }
+.slide h3 { color: #3a6b8a; font-size: 14pt; font-weight: 600; margin: 0 0 0.4em; }
+.slide p  { font-size: 14.5pt; line-height: 1.45; margin: 0.25em 0; }
+.slide ul, .slide ol { font-size: 14.5pt; line-height: 1.42; margin: 0.15em 0 0 1.05em;
+                       padding-left: 0.4em; }
+.slide li { margin: 0.22em 0; }
+.slide strong { color: #0a3d62; }
+.slide em { color: #445; }
+.slide blockquote { font-size: 17pt; border-left: 5px solid #0a3d62; background: #f0f6fb;
+                    padding: 0.5em 0.8em; margin: 0.4em 0; color: #0a3d62; font-weight: 600; }
+.slide blockquote p { font-size: 17pt; margin: 0.1em 0; }
+.slide code { font-family: "SF Mono", ui-monospace, Menlo, monospace; font-size: 0.82em;
+              background: #eef2f5; padding: 0.08em 0.3em; border-radius: 3px; }
+
+.slide table { font-size: 11.5pt; border-collapse: collapse; margin-top: 0.35em; width: 100%; }
+.slide th { background: #0a3d62; color: #fff; padding: 5px 10px; text-align: left; }
+.slide td { border: 1px solid #cdd8e0; padding: 5px 10px; vertical-align: top; }
+.slide tr:nth-child(even) td { background: #f5f8fb; }
+
+.slide .mermaid { flex: 1; display: flex; align-items: center; justify-content: center;
+                  margin-top: 0.2em; }
+.slide .mermaid svg { max-height: 4.6in; max-width: 100%; }
+/* left-align multi-line benefit boxes (nodes tagged `benefitbox` in the diagram) */
+.slide .mermaid g.benefitbox div,
+.slide .mermaid g.benefitbox .nodeLabel { text-align: left !important; }
+
+/* title slide */
+.slide.title { justify-content: center; padding-left: 1.0in;
+               background: linear-gradient(135deg, #0a3d62 0%, #0e2a3d 100%); color: #eaf2f8; }
+.slide.title h1 { color: #ffffff; font-size: 42pt; border: none; }
+.slide.title h2 { color: #9fd0ea; font-size: 20pt; }
+.slide.title h3 { color: #c7dced; }
+.slide.title p, .slide.title strong { color: #dbe9f3; }
+.slide.title em { color: #9fb6c8; font-style: italic; }
+.slide.title .foot { color: #6f95ad; }
+
+/* footer */
+.slide .foot { position: absolute; bottom: 0.32in; right: 0.85in; font-size: 9pt;
+               color: #9aa7b1; letter-spacing: 0.3px; }
+
+/* accent bar under non-title headings */
+.slide:not(.title) > h2:first-child { border-bottom: 3px solid #e2b13c; padding-bottom: 6px;
+                                      display: inline-block; }
