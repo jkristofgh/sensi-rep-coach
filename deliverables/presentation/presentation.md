@@ -253,13 +253,14 @@ flowchart LR
 
 ## What it takes to run it for real
 - **Trigger** — a Jiminny "call-complete" webhook fires the engine; no manual upload
-- **Data safety** — zero-retention + BAA LLM endpoint · PII handling · data stays in-region (NDA / HIPAA-adjacent)
+- **Data safety & access** — zero-retention + BAA LLM · PII handling · in-region · **RBAC** (reps see own, managers their team; sensitive coaching scoped) · audit trail
+- **Guardrails** — forced structured output · every LLM quote verified against the transcript · a deterministic score anchor · versioned rubric, humans own changes
 - **Human-in-loop** — managers own escalations, rubric changes, high-stakes coaching
 - **Orchestration** — the lightest thing that clears data-residency: HubSpot Workflows / Operations Hub first; n8n *challenged*, not assumed
-- **Runs without me** — versioned rubric · monitoring · one-command deploy — it keeps running long after I've moved on
+- **Runs without me** — monitoring · one-command deploy · config-over-code — it keeps running long after I've moved on
 
 :::detail
-Cost model, auth / RBAC, and the finalized production make-vs-buy (capture · scoring · routing · KB · BI) are worked in the dedicated production session.
+Cost model and the finalized production make-vs-buy (capture · scoring · routing · KB · BI) are in the dedicated production session; the LLM trust mechanics are detailed in the **Trust & guardrails** appendix.
 :::
 
 ---
@@ -290,3 +291,19 @@ In production Rep Coach ships **no UI** — it writes into HubSpot's own objects
 | Nudge ("your call was scored") | **Slack** message that **deep-links back** into HubSpot | Rep (sent into HubSpot) |
 
 **Tier caveat (discovery item):** custom objects → Enterprise · UI extensions → dev projects · programmable automation → Operations Hub Pro+. **Degrades gracefully** — call properties + Notes + standard Tasks + workflows on lower tiers, and the loop still closes.
+
+---
+
+## Appendix · Trust & guardrails — keeping the LLM reliable in production
+
+A score is only useful if a manager can trust it. Reliability is **engineered in**, not hoped for — most of it already built:
+
+| Risk | Guardrail | Status |
+|------|-----------|--------|
+| LLM invents a score | **Deterministic anchor** — talk/listen & question counts scored in code; hybrid dims average code + LLM | Built |
+| Free-text drift / parse errors | **Forced structured output** — tool-use schema, not text parsing · retries · score clamping | Built |
+| Hallucinated evidence | **Quote verification** — every LLM evidence quote checked near-verbatim against the transcript | Built |
+| Prompt injection (transcripts are untrusted input) | Transcript treated as **data, not instructions**; scored fields constrained by the tool schema | Design |
+| Criteria drift over time | **Versioned rubric** — humans own rubric changes; every eval records the rubric version | Built |
+
+**One-line version:** half the score is math the LLM can't move, and the LLM half must cite the quote or it's caught.

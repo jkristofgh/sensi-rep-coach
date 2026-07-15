@@ -195,6 +195,10 @@ ramp).
 
 ## 9. Monitoring & "runs without me"
 
+> **The LLM trust mechanics** — the deterministic anchor, forced structured output, quote
+> verification, prompt-injection stance, and versioned-rubric change control — are worked in the
+> companion deep-dive [`guardrails.md`](guardrails.md) (deck S16 "Guardrails" + the S19 appendix).
+
 The assignment's soft ask — *keeps running long after I've moved on* — is an operational design goal:
 
 - **Versioned rubric** — every eval stamps `rubric_version`; rubric changes are reviewable, revertible.
