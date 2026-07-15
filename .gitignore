@@ -10,3 +10,7 @@ app/.env
 # render + screenshot caches
 app/render/_cache/
 app/_screens/
+
+# macOS
+.DS_Store
+**/.DS_Store

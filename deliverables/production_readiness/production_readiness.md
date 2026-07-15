@@ -73,6 +73,11 @@ The strongest fix for the multi-tool jump (**pain #1**) is to stop adding surfac
 **HubSpot the one place the work lives.** The scoring engine is unchanged; only the adapters and the
 trigger become real.
 
+> **The concrete HubSpot mechanics** — how each Rep Coach output maps to a HubSpot object (custom
+> object · CRM card · Tasks · workflows · native dashboards), the prototype→production adapter
+> mapping, the tier caveats, and the discovery questions — are worked in the companion deep-dive
+> [`hubspot_surface.md`](hubspot_surface.md).
+
 ```mermaid
 flowchart LR
   JIM[Jiminny<br/>capture + transcript] -->|call-complete webhook| ENG

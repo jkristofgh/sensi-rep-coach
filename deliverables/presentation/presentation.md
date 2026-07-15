@@ -272,3 +272,21 @@ Cost model, auth / RBAC, and the finalized production make-vs-buy (capture · sc
 > The overlap **is** the compounding. Build the loop once; every future enablement problem becomes a rubric, not a project.
 
 **And the stakes are real:** one agency took conversion **33% → 85%** on camera. Better sellers → more agencies say yes → **more seniors get care.**
+
+---
+
+## Appendix · Rep Coach on HubSpot — the production surface
+
+In production Rep Coach ships **no UI** — it writes into HubSpot's own objects, so reps and managers act where they already work. **Kills the multi-tool jump (pain #1).**
+
+| Rep Coach output | HubSpot mechanism | Who acts on it |
+|------------------|-------------------|----------------|
+| Evaluation (scores + evidence) | **Custom object** `Call Evaluation` — linked to Call · Contact · Deal · rep | Feeds everything below |
+| Scorecard on the call | **CRM card** (UI Extension) on the record · or scores as call **properties** | Rep (own) · manager (team) |
+| Coach's next steps | **Tasks** to the rep — due-dated, linked to micro-content | Rep's task queue |
+| Prospect next steps | **Tasks** on the deal · optional **sequence** | Rep's task queue |
+| Escalations (low score / red-flag) | **Workflow** → manager task / alert | Manager |
+| Trends + coaching queue | Native **Reports & Dashboards** + a filtered **list** on the eval object | Manager dashboard |
+| Nudge ("your call was scored") | **Slack** message that **deep-links back** into HubSpot | Rep (sent into HubSpot) |
+
+**Tier caveat (discovery item):** custom objects → Enterprise · UI extensions → dev projects · programmable automation → Operations Hub Pro+. **Degrades gracefully** — call properties + Notes + standard Tasks + workflows on lower tiers, and the loop still closes.
